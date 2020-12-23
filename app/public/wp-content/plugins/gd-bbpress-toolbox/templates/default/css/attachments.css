@@ -1,0 +1,239 @@
+.gdbbx-attachments ol li a {
+  text-decoration: none;
+  box-shadow: none;
+}
+.gdbbx-attachments ol li a img {
+  display: block;
+}
+.gdbbx-attachments ol li.gdbbx-attachment-thumb {
+  padding: 0;
+  height: auto;
+  margin: 0 0 10px !important;
+}
+.gdbbx-attachments ol li.gdbbx-attachment-thumb.gdbbx-thumb-inline {
+  float: left;
+  margin-right: 10px !important;
+  list-style: none !important;
+}
+.gdbbx-attachments ol li.gdbbx-attachment-thumb .wp-caption {
+  padding: 5px;
+  margin: 0;
+  height: auto;
+}
+.gdbbx-attachments ol li.gdbbx-attachment-thumb .wp-caption p.wp-caption-text {
+  margin: 5px 0 !important;
+  word-wrap: break-word;
+  line-height: 1.3em;
+  padding: 0;
+  font-size: 12px;
+}
+.gdbbx-attachments ol li.gdbbx-attachment-thumb .wp-caption img {
+  margin: 0;
+}
+.gdbbx-attachments .gdbbx-attachments-bulk {
+  clear: both;
+  font-weight: bold;
+  margin: 5px 0 0;
+  padding: 5px 0 0;
+  border-top: 1px dashed #ddd;
+}
+
+.gdbbx-attachments-errors li {
+  line-height: 16px;
+}
+
+.gdbbx-attachments,
+.gdbbx-attachments-errors {
+  border-top: 1px solid #dddddd;
+  margin-top: 10px;
+  padding: 10px 0;
+  overflow: auto;
+}
+.gdbbx-attachments h6,
+.gdbbx-attachments-errors h6 {
+  margin: 0 0 10px !important;
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.4em;
+}
+.gdbbx-attachments ol,
+.gdbbx-attachments-errors ol {
+  clear: both;
+  margin: 0 !important;
+  list-style: decimal inside none;
+}
+.gdbbx-attachments ol li,
+.gdbbx-attachments-errors ol li {
+  margin: 0 0 6px !important;
+}
+.gdbbx-attachments ol li:last-child,
+.gdbbx-attachments-errors ol li:last-child {
+  margin: 0 !important;
+}
+.gdbbx-attachments ol .with-icons,
+.gdbbx-attachments-errors ol .with-icons {
+  list-style: none;
+  margin: 0 0 10px !important;
+}
+.gdbbx-attachments ol .with-icons:last-child,
+.gdbbx-attachments-errors ol .with-icons:last-child {
+  margin: 0 !important;
+}
+.gdbbx-attachments ol .with-font-icons li,
+.gdbbx-attachments-errors ol .with-font-icons li {
+  line-height: 20px;
+  list-style: none;
+}
+.gdbbx-attachments ol .with-thumbnails,
+.gdbbx-attachments-errors ol .with-thumbnails {
+  list-style: none;
+}
+.gdbbx-attachments ol .with-thumbnails .gdbbx-attachment-thumb,
+.gdbbx-attachments-errors ol .with-thumbnails .gdbbx-attachment-thumb {
+  list-style: none;
+}
+.gdbbx-attachments ol .with-thumbnails:after,
+.gdbbx-attachments-errors ol .with-thumbnails:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.gdbbx-attachments-edit .gdbbx-attachment select {
+  margin: 0 !important;
+  padding: 0;
+  float: right;
+  height: 20px;
+  font-size: 11px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: auto;
+}
+
+.bbp-form .gdbbx-attachments-form-current .gdbbx-attachments {
+  border-top: none;
+  margin-top: 0;
+  padding: 0;
+}
+.bbp-form .gdbbx-attachments-form-current ol {
+  padding: 0;
+}
+.bbp-form .gdbbx-attachments-form.gdbbx-auto-newfile .gdbbx-attachment-add-file {
+  display: none;
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-attachments-input {
+  padding: 0;
+  margin: 0.5em 0;
+  border: 0;
+  border-right: 4px solid transparent;
+  border-radius: 3px 0 0 3px;
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-attachments-input:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-attachments-input input {
+  margin: 0 !important;
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-attachments-input.gdbbx-attachment-added {
+  background-color: #f4fff4;
+  border-right-color: #46b450;
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-attachments-input.gdbbx-attachment-added a {
+  color: #46b450;
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-attachments-input.gdbbx-attachment-invalid {
+  background-color: #fff4f4;
+  border-right-color: #dc3232;
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-attachments-input.gdbbx-attachment-invalid a {
+  color: #dc3232;
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-validation-disabled div {
+  display: none;
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-validation-active input {
+  display: none;
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-validation-active .gdbbx-attachment-preview {
+  width: 160px;
+  height: 38px;
+  border-radius: 3px;
+  float: left;
+  margin: 0 10px 0 0;
+  background-color: #eee;
+  cursor: pointer;
+  position: relative;
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-validation-active .gdbbx-attachment-preview span {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
+  bottom: 6px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 24px;
+  padding: 0 10px;
+  position: absolute;
+  left: 6px;
+  border: 1px solid #999;
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-validation-active .gdbbx-attachment-preview img.gdbbx-attached-file {
+  border: 1px solid #eee;
+  border-radius: 3px;
+  box-shadow: none;
+  height: 118px;
+  width: 158px;
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-validation-active .gdbbx-attachment-preview p.gdbbx-attached-file {
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: -2px;
+  line-height: 1.4em;
+  margin: 0 0.4em 0 0.3em !important;
+  text-align: right;
+  color: #777;
+  word-wrap: initial;
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-validation-active .gdbbx-attachment-control {
+  line-height: 22px;
+  float: left;
+  margin: 5px 0;
+  width: calc(100% - 170px);
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-validation-active .gdbbx-attachment-control input {
+  font-size: 12px;
+  height: 22px;
+  padding: 2px 4px;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.bbp-form .gdbbx-attachments-form .gdbbx-attachment-added .gdbbx-attachment-preview {
+  height: 120px;
+}
+.bbp-form .gdbbx-attachment-add-file {
+  background-color: #FEFEFE;
+  border: 1px solid #999;
+  border-radius: 3px;
+  bottom: 6px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 24px;
+  padding: 0 1em;
+  margin: 0.5em 0 0;
+  right: 6px;
+}
+.bbp-form .gdbbx-attachment-add-file:before {
+  display: block;
+  clear: both;
+}
+
+.gdbbx-attachments-login-message {
+  margin: 1em 0 0 !important;
+}

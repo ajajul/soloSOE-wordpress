@@ -1,0 +1,32 @@
+#{$base} {
+    .wp-editor-container {
+        .quicktags-toolbar {
+            background: $color-form-field-border;
+            border: 0;
+            padding: 5px;
+
+            input {
+                &.button {
+                    box-shadow: none;
+                    @include ltr {
+                        margin: 0 5px 0 0;
+                    }
+
+                    @include rtl {
+                        margin: 0 0 0 5px;
+                    }
+                }
+            }
+        }
+
+        .mce-toolbar .mce-btn i {
+            font-size: 20px;
+        }
+
+        textarea {
+            &.bbp-the-content {
+                margin-top: 0 !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+// Basic //
+$core: gd-quantum-theme;
+$prefix: gdqnt;
+$base: "#bbpress-forums";
+$container: "#bbp-container";
+
+// Theme //
+$theme: default-gray !default;
+
+// Font //
+$font-name: "gdqnt";
+$font-version: "2.4.150";
+
+// Typogrpahy //
+$font-size: 14px !default;
+$line-height: 22px !default;
+
+// Colours //
+$color-text: #222 !default;
+$color-link: #900 !default;
+$color-background: #FFF !default;
+$color-common-background: #EEE !default;
+
+$color-sticky-background: #FFFFE0 !default;
+$color-super-sticky-background: #FFFFE0 !default;
+
+$color-spam-background: #FEE !default;
+$color-trash-background: #FFE0FF !default;
+$color-pending-background: #EEF !default;
+
+// Popup //
+$popup-base: bbpress-gdqnt-popup;
+
+// Grid //
+$grid-width: 96% !default;
+$grid-gutter: 4% !default;
+$grid-spacing: 16px !default;
+$grid-columns: 12 !default;
+
+$grid-break-small: 540px !default;
+$grid-break-medium: 720px !default;
+$grid-break-large: 960px !default;
+
+$grid-break-xs: 400px !default;
+
+// Few more things //
+$border-radius: 3px !default;

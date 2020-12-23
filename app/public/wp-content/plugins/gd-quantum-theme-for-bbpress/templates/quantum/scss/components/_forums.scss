@@ -1,0 +1,12 @@
+#{$base} {
+    .bbp-single-forum-description {
+        background: $color-post-descriptions-background;
+        color: $color-post-descriptions-text;
+        margin: 20px 0;
+        padding: 10px;
+
+        &:empty {
+            display: none;
+        }
+    }
+}

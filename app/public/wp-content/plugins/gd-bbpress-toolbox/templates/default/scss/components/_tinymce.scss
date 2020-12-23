@@ -1,0 +1,98 @@
+#{$bbp-forums} {
+    .wp-editor-wrap {
+        box-sizing: content-box;
+
+        * {
+            box-sizing: content-box;
+        }
+    }
+}
+
+#{$bbp-forums} {
+    #bbp-user-wrapper {
+        .gdbbx-editor-tinymce {
+            min-width: 0;
+
+            .wp-editor-container {
+                border: 1px solid #e5e5e5;
+            }
+
+            textarea.wp-editor-area {
+                border: 0;
+                width: 100%;
+                background: #ffffff;
+            }
+
+            div {
+                float: none;
+                clear: inherit;
+                margin-bottom: 0;
+                width: auto;
+
+                &.wp-media-buttons {
+                    float: left;
+                }
+
+                &.wp-editor-tabs {
+                    float: right;
+                }
+
+                &.quicktags-toolbar {
+                    input {
+                        width: auto !important;
+                        border-radius: 3px !important;
+                        background: #f7f7f7;
+                        border-color: #cccccc;
+                        color: #555555;
+                        margin: 2px;
+                        padding: 0 8px 1px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#{$buddypress} {
+    #{$bbp-forums},
+    .gdbbx-editor-tinymce {
+        .wp-switch-editor {
+            background: #ebebeb;
+            border: 1px solid #e5e5e5;
+            padding: 3px 8px 4px;
+            font-size: 13px;
+            line-height: 19px;
+        }
+
+        textarea.wp-editor-area,
+        textarea.wp-editor-area {
+            border: 0;
+            width: 100%;
+            background: #ffffff;
+        }
+
+        .mce-widget button,
+        .mce-widget button {
+            min-width: 0;
+            padding: 2px 3px;
+            line-height: normal;
+            text-align: left;
+        }
+    }
+
+    #{$bbp-forums} {
+        .tmce-active .switch-tmce {
+            background: #f5f5f5;
+            border-bottom-color: #f5f5f5;
+            color: #555;
+        }
+    }
+
+    .gdbbx-editor-tinymce {
+        .html-active .switch-html {
+            background: #f5f5f5;
+            border-bottom-color: #f5f5f5;
+            color: #555;
+        }
+    }
+}

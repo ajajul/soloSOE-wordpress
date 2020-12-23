@@ -1,0 +1,51 @@
+#{$base} {
+    .bbp-alert-outer {
+        background: rgba(0, 0, 0, 0.2);
+        height: 100%;
+        width: 100%;
+        top: 0;
+        position: fixed;
+        z-index: 99999999;
+
+        @include ltr {
+            left: 0;
+        }
+
+        @include rtl {
+            right: 0;
+        }
+
+        .bbp-alert-inner {
+            background: $color-background;
+            border: 1px solid $color-common-line;
+            width: 350px;
+            text-align: center;
+            position: fixed;
+            top: 50%;
+            margin-top: -75px;
+            border-radius: 3px;
+            padding: 15px 10px 10px;
+
+            @include ltr {
+                left: 50%;
+                margin-left: -185px;
+            }
+
+            @include rtl {
+                right: 50%;
+                margin-right: -185px;
+            }
+
+            p {
+                margin: 10px 0;
+            }
+        }
+
+        .bbp-alert-actions {
+            a {
+                padding: 5px 20px;
+                text-decoration: none;
+            }
+        }
+    }
+}

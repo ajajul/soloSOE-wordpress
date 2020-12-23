@@ -1,0 +1,18 @@
+#{$base} {
+    .gdfar-bulk-control {
+        line-height: 38px;
+        margin: 0 0 15px;
+
+        > div {
+            &.__editor {
+                button {
+                    &.gdfar-ctrl-bulk {
+                        @include quantum-button;
+
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+    }
+}

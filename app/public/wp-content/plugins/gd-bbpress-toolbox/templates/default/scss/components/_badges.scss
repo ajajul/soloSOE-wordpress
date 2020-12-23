@@ -1,0 +1,28 @@
+#{$bbp-forums} {
+    .#{$badge-prefix}-new-reply {
+        float: left;
+    }
+
+    .#{$badge-prefix}-new-reply,
+    .#{$badge-prefix}-unread-forum,
+    .#{$badge-prefix}-unread-topic,
+    .#{$badge-prefix}-new-reply-topic,
+    .#{$badge-prefix}-new-posts,
+    .#{$badge-prefix}-new-topic {
+        background: #111;
+        border-radius: 2px;
+        padding: 0 4px 1px;
+        margin: 0 4px 0 0;
+        font-size: 90%;
+        color: #fff;
+    }
+
+    .#{$badge-prefix}-unread-forum,
+    .#{$badge-prefix}-unread-topic {
+        background: #009;
+    }
+
+    .#{$badge-prefix}-new-reply-topic {
+        background: #090;
+    }
+}

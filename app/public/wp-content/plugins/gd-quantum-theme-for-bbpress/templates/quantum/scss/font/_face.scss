@@ -1,0 +1,11 @@
+@font-face {
+    font-family: $font-name;
+    src: url('fonts/gdqnt.eot?#{$font-version}');
+    src: url('fonts/gdqnt.eot?#{$font-version}#iefix') format('embedded-opentype'),
+    url('fonts/gdqnt.woff2?#{$font-version}') format('woff2'),
+    url('fonts/gdqnt.woff?#{$font-version}') format('woff'),
+    url('fonts/gdqnt.ttf?#{$font-version}') format('truetype'),
+    url('fonts/gdqnt.svg?#{$font-version}#gdqnt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

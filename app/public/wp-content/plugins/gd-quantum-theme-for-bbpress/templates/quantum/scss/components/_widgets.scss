@@ -1,0 +1,72 @@
+.gdqnt-widget,
+.widget {
+    #bbp-search-form {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+
+        * {
+            box-sizing: border-box;
+        }
+    }
+
+    .bbp-logged-in {
+        img {
+            box-shadow: none;
+
+            @include ltr {
+                float: left;
+                margin: 0 15px 0 0;
+            }
+
+            @include rtl {
+                float: right;
+                margin: 0 0 0 15px;
+            }
+        }
+
+        h4 {
+            clear: none;
+            margin: 0 0 10px;
+            padding: 0;
+            font-size: 120%;
+            font-weight: bold;
+        }
+    }
+
+    .bbp-login-form {
+        fieldset {
+            box-sizing: border-box;
+            line-height: $line-height;
+
+            border: 0;
+            margin: 0;
+            padding: 0;
+
+            * {
+                box-sizing: border-box;
+            }
+
+            legend {
+                display: none;
+            }
+
+            > div {
+                clear: both;
+                margin: 0 0 10px;
+
+                @import "../shared/form";
+            }
+
+            .bbp-submit-wrapper {
+                border-top: 2px solid $color-form-button-background;
+                padding: 15px 0 0;
+                margin: 15px 0 0;
+
+                button {
+                    @include quantum-button;
+                }
+            }
+        }
+    }
+}

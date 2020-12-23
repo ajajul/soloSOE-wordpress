@@ -1,0 +1,149 @@
+.d4p-group-divider {
+    margin: 10px 0 15px;
+    float: left;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    clear: both;
+    font-size: 2em;
+    overflow: auto;
+    line-height: normal;
+    padding: 5px 0 0;
+    border-top: 2px solid #DDD;
+}
+
+.d4p-options-panel {
+    background: #FFF;
+    border: 1px solid #DDD;
+    margin: 0 15px 15px 0;
+    padding: 15px;
+    float: left;
+    text-align: center;
+    width: 400px;
+
+    i {
+        float: left;
+        font-size: 5em;
+        margin-right: 15px;
+        text-align: center;
+        width: 1em;
+
+        &.d4p-icon-fw {
+            width: 1.28571429em;
+        }
+    }
+
+    h5 {
+        margin: 0 0 10px 85px;
+        padding: 0 0 5px;
+        text-align: left;
+        font-size: 20px;
+        border-bottom: 1px solid #DDD;
+    }
+
+    div {
+        text-align: right;
+        margin: 0 0 0 85px;
+
+        span {
+            float: left;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 28px;
+            text-transform: uppercase;
+        }
+
+        a.button-primary {
+            padding: 0 20px 1px
+        }
+    }
+}
+
+.d4p-group {
+    background: #FFF;
+    border: 1px solid #BBB;
+    margin: 0 0 15px;
+    float: left;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    clear: both;
+    overflow: auto;
+
+    h3 {
+        margin: 0;
+        background: #E0E0E0;
+        color: #111;
+        border-bottom: 1px solid #BBB;
+        text-align: left;
+        padding: 10px;
+        line-height: 120%;
+        vertical-align: top;
+
+        i {
+            float: right;
+            cursor: pointer;
+        }
+
+        textarea {
+            height: 160px;
+        }
+
+        .d4p-kb-group {
+            float: right;
+            background: #C00;
+            color: #FFF;
+            padding: 2px 8px;
+            border-radius: 2px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+    }
+
+    &.d4p-group-tools {
+        label {
+            display: block;
+            line-height: 1.8;
+        }
+    }
+
+    &.d4p-hidden-group {
+        display: none;
+    }
+
+    .d4p-group-inner {
+        padding: 15px;
+        text-align: left;
+
+        > *:first-child {
+            margin-top: 0;
+        }
+
+        > *:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.d4p-group-error {
+    border-color: #D00;
+
+    h3 {
+        background: #D00;
+        color: #FFF;
+    }
+
+    .d4p-group-inner {
+        text-align: left;
+
+        p {
+            margin-top: 0;
+            font-weight: bold;
+        }
+
+        ul {
+            margin: 0;
+            list-style: inside;
+        }
+    }
+}

@@ -1,0 +1,129 @@
+$row: #{$prefix}-row;
+$col: #{$prefix}-col;
+$hid: #{$prefix}-hidden;
+$shw: #{$prefix}-visible;
+$inl: #{$prefix}-inline;
+
+.#{$hid}-sm,
+.#{$hid}-md,
+.#{$hid}-lr,
+.#{$shw}-sm,
+.#{$shw}-md,
+.#{$shw}-lr {
+    display: none;
+}
+
+.#{$row} {
+    position: relative;
+    width: 100%;
+}
+
+.#{$row} [class^="#{$col}"] {
+    margin: $grid-spacing ($grid-gutter / 2);
+    min-height: ($grid-spacing / 4);
+
+    @include ltr {
+        float: left;
+    }
+
+    @include rtl {
+        float: right;
+    }
+}
+
+.#{$row}::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@for $i from 1 through $grid-columns {
+    .#{$col}-#{$i},
+    .#{$col}-#{$i}-md {
+        width: $grid-width;
+    }
+}
+
+@for $i from 1 through $grid-columns {
+    $j: $grid-columns - $i;
+    $k: $grid-columns / $i;
+
+    .#{$col}-#{$i}-sm {
+        width: ($grid-width / $k) - ($grid-gutter * $j / $grid-columns);
+    }
+}
+
+@media only screen and (min-width: $grid-break-small) {
+    @for $i from 1 through $grid-columns {
+        $j: $grid-columns - $i;
+        $k: $grid-columns / $i;
+
+        .#{$col}-#{$i}-md {
+            width: ($grid-width / $k) - ($grid-gutter * $j / $grid-columns);
+        }
+    }
+}
+
+@media only screen and (min-width: $grid-break-medium) {
+    @for $i from 1 through $grid-columns {
+        $j: $grid-columns - $i;
+        $k: $grid-columns / $i;
+
+        .#{$col}-#{$i} {
+            width: ($grid-width / $k) - ($grid-gutter * $j / $grid-columns);
+        }
+    }
+}
+
+@media only screen and (min-width: $grid-break-small) {
+    .#{$hid}-sm,
+    .#{$shw}-md {
+        display: block;
+
+        &.#{$inl} {
+            display: inline-block;
+        }
+    }
+}
+
+@media only screen and (min-width: $grid-break-medium) {
+    .#{$shw}-md {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: $grid-break-large) {
+    .#{$hid}-md,
+    .#{$shw}-lr {
+        display: block;
+
+        &.#{$inl} {
+            display: inline-block;
+        }
+    }
+
+    .#{$shw}-md {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: $grid-break-large) {
+    .#{$hid}-lr {
+        display: block;
+
+        &.#{$inl} {
+            display: inline-block;
+        }
+    }
+}
+
+@media only screen and (max-width: $grid-break-small) {
+    .#{$shw}-sm,
+    .#{$hid}-md {
+        display: block;
+
+        &.#{$inl} {
+            display: inline-block;
+        }
+    }
+}

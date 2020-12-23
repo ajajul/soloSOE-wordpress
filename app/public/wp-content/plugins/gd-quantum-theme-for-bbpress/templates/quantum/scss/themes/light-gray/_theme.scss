@@ -1,0 +1,57 @@
+$theme: light-gray;
+
+// Init //
+@import '../../includes/_functions';
+@import '../../includes/_direction';
+@import '../../includes/_variables';
+@import '../../includes/_notices';
+
+@import '_calculation';
+
+// Mixins //
+@import '../../includes/_mixins';
+
+// General //
+@import '../../includes/_basics';
+
+// Font Icons //
+@import '../../font/_icons';
+
+// Components //
+@import '_list';
+@import '_forms';
+
+@import '../../components/_banners';
+@import '../../components/_search';
+@import '../../components/_breadcrumbs';
+@import '../../components/_pagination';
+@import '../../components/_alert';
+@import '../../components/_editor';
+
+@import '../../components/_posts';
+@import '../../components/_forums';
+@import '../../components/_topics';
+@import '../../components/_replies';
+
+@import '../../components/_widgets';
+@import '../../components/_revisions';
+
+@import '../../components/_popup';
+@import '../../components/_notices';
+@import '../../components/_profile';
+
+@import '_tweaks';
+@import '_profile';
+
+// Responsive //
+@import '../../includes/_responsive';
+
+// Themes, Plugins and Fixes //
+@import '../../plugins/_toolbox';
+@import '../../plugins/_directory';
+@import '../../plugins/_polls';
+@import '../../plugins/_manager';
+
+@import '../../includes/_themes';
+@import '../../includes/_plugins';
+@import '../../includes/_fixes';

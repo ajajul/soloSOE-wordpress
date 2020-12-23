@@ -1,0 +1,32 @@
+@mixin quantum-button {
+    background: $color-form-button-background;
+    color: $color-form-button-link;
+    cursor: pointer;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: $border-radius;
+    padding: 8px 32px;
+    font-weight: bold;
+
+    &.#{$prefix}-button-secondary {
+        background: $color-form-button-secondary-background;
+        padding: 2 * $border-width-form-field + 4px 24px;
+    }
+
+    &:hover {
+        background: darken($color-form-button-background, 15%);
+        color: lighten($color-form-button-link, 5%);
+    }
+}
+
+@mixin quantum-default-notice-borders($width, $color) {
+    @include ltr {
+        border-left: $width solid $color;
+    }
+
+    @include rtl {
+        border-right: $width solid $color;
+    }
+}

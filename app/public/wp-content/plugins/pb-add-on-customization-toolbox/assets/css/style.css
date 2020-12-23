@@ -1,0 +1,43 @@
+.wppb-toolbox-list {
+    margin-top: 0;
+}
+
+.wppb-toolbox-list li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.wppb-toolbox-list .toolbox-label {
+    width: 140px;
+}
+
+.wppb-toolbox-list .toolbox-select2-container {
+    width: 100%;
+    max-width: 350px;
+}
+
+.wppb-toolbox-list #toolbox-restricted-email-domains-message {
+    width: 100%;
+    max-width: 350px;
+}
+
+.wppb-toolbox-list input[type="text"] {
+    width: 100%;
+}
+
+.wppb-toolbox-list--margin {
+    margin-top: 14px;
+}
+
+.form-table td {
+    padding-top: 20px;
+}
+
+.wppb-toolbox-accordion {
+    display: none;
+}
+
+.wppb-toolbox-wrap #setting-error-settings_updated p {
+    font-size: 13px;
+}

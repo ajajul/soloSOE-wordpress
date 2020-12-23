@@ -1,0 +1,44 @@
+.#{$attachments} {
+    ol {
+        li {
+            &.gdbbx-attachment-thumb {
+                &.gdbbx-thumb-inline {
+                    float: right;
+                    margin-left: 10px !important;
+                }
+            }
+        }
+    }
+}
+
+.#{$attachments-prefix}-edit {
+    .gdbbx-attachment {
+        select {
+            float: left;
+        }
+    }
+}
+
+.#{$bbp-form} {
+    .#{$attachments-prefix}-form {
+        .#{$attachments-prefix}-input {
+            border-left: 4px solid transparent;
+            border-radius: 3px 0 0 3px;
+
+            &.gdbbx-attachment-added {
+                border-left-color: #46b450;
+            }
+        }
+
+        .gdbbx-validation-active {
+            .gdbbx-attachment-preview {
+                float: right;
+                margin: 0 0 0 10px;
+            }
+
+            .gdbbx-attachment-control {
+                float: right;
+            }
+        }
+    }
+}

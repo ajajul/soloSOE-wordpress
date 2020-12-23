@@ -1,0 +1,658 @@
+/* product card styles begin */
+body{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",
+		         Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"!important;
+}
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, 0.1);
+    box-shadow: none;
+}
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: 0.28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top: 20px;
+}
+
+.slosoe-yes .product-footer-properties {
+    color: green;
+}
+
+.product-footer-properties {
+    color: green;
+}
+
+span.solosoe-boolean-product-properties.slosoe-yes {
+    color: green;
+}
+
+.slosoe-no {
+    color: red;
+}
+
+#solosoe-recommended-price {
+    font-size: 20px;
+}
+
+.greenbg {
+    background: #009688;
+    color: white !important;
+    padding: 15px;
+}
+
+small.text-muted.cima {
+    color: white !important;
+}
+
+.card-block.bg-danger.solosoe-psuministro-resultados.px-6 {
+    background: red !important;
+    color: white;
+}
+
+.card-header {
+    background: none;
+    border-bottom: none;
+}
+
+small.solosoe-cima-label.zagsm strong {
+    color: yellow;
+}
+
+.blue {
+    color: #4578b6;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.card {
+    box-shadow: none;
+    border: none !important;
+}
+
+.list-group {
+    flex-direction: row;
+}
+
+.list-group-item {
+    border: none;
+    padding: 5px 5px 0 0;
+    margin-top: 10px;
+}
+
+.carousel-control-next-icon {
+    background: #009688;
+}
+
+.carousel-control-prev-icon {
+    background: #009688;
+}
+
+img.d-block {
+    max-width: 300px;
+    width: 300px;
+}
+
+div#solosoe-recommended-price.h1.title.badge.badge-warning.mb-2 {
+    padding: 12px;
+    font-size: 15px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+.card-title {
+    color: #3b6679;
+    display: block;
+}
+
+.card-subtitle.mb-2 {
+    color: #3b6679;
+}
+
+small.solosoe-pr-rango-precios.text-muted {
+    color: #3b6679 !important;
+}
+
+small.solosoe-pr-comercios.text-muted {
+    color: #3b6679 !important;
+}
+
+a.carousel-control-next {
+    display: none;
+}
+
+a.carousel-control-prev {
+    display: none;
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+img.img-thumbnail.solosoe-prd-shop-item {
+    max-width: 50px;
+}
+
+
+/* product card styles end */
+
+
+/* search form style start */
+
+input#solr-typeahead.search-field.tt-input {
+    border: 2px solid grey;
+    border-radius: 4px;
+    width: 700px;
+    padding: 5px 0 5px 20px;
+    outline: none !important;
+}
+
+input#solr-typeahead.search-field.tt-input:hover {
+    border: 2px solid #65bec2;
+}
+
+.tt-input,
+.tt-hint {
+    width: 396px;
+    height: 30px;
+    padding: 8px 20px;
+    font-size: 18px;
+    line-height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.tt-input {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+    color: #999;
+}
+
+.tt-dropdown-menu {
+    width: 422px;
+    margin-top: 12px;
+    padding: 8px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tt-suggestion {
+    padding: 3px 20px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.tt-suggestion.tt-cursor {
+    color: #fff;
+    background-color: #0097cf;
+}
+
+.tt-suggestion p {
+    margin: 0;
+}
+
+.tt-dataset.tt-dataset-products {
+    width: 700px;
+    background-color: white;
+}
+
+.Typeahead-spinner {
+    display: none;
+}
+
+
+/* carousel styles begin */
+
+.carousel-wrap {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.owl-carousel .owl-nav {
+    overflow: hidden;
+    height: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #2caae1;
+}
+
+.owl-carousel .item {
+    text-align: center;
+}
+
+.owl-carousel .nav-btn {
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 100px !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+.owl-carousel .prev-slide {
+    background: url(nav-icon.png) no-repeat scroll 0 0;
+    left: -33px;
+}
+
+.owl-carousel .next-slide {
+    background: url(nav-icon.png) no-repeat scroll -24px 0px;
+    right: -33px;
+}
+
+.owl-carousel .prev-slide:hover {
+    background-position: 0px -53px;
+}
+
+.owl-carousel .next-slide:hover {
+    background-position: -24px -53px;
+}
+
+span.img-text {
+    text-decoration: none;
+    outline: none;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    cursor: pointer;
+    width: 100%;
+    font-size: 23px;
+    display: block;
+    text-transform: capitalize;
+}
+
+span.img-text:hover {
+    color: #2caae1;
+}
+
+.owl-stage-outer {
+    margin-top: 50px;
+}
+
+
+/* carousel styles end */
+
+
+/***********kinnari custom css******/
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+    margin-top: 1%;
+	height: auto;
+}
+.owl-carousel .item {
+    text-align: left;
+}
+.owl-carousel .box-item{
+	background: #00000096;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+	display: flow-root;
+    height: 140px;
+}
+.box-item h6{
+	margin:0rem auto 0.5rem;
+	text-transform: capitalize;
+	
+}
+.box-item h6 a{
+	font-size:12px;
+	color:#fff;
+	letter-spacing: normal;
+	font-weight: 200;
+}
+.box-item p{
+	font-size: 14px;
+    color: #fff;
+    max-width: 400px;
+	white-space: inherit;
+    font-size: 14px;
+    line-height: 1.4;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    display: -webkit-box;
+}
+.owl-carousel .owl-nav.disabled {
+    display: block;
+    overflow: inherit;
+   
+}
+.search-box{
+	display:flex;
+	align-items:flex-end;
+	justify-content:center;
+	margin-top: 18px;
+}
+.search-box .logobing{
+	width:140px;
+	margin-right:20px;
+}
+.search-box .form-control{
+	height: 50px;
+    width: 60%;
+    flex: inherit!important;
+}
+.search-box .input-group-text {
+    background-color: transparent!important;
+    border: 1px solid transparent!important;
+    /* position: absolute; */
+    margin-left: -50px!important;
+    z-index: 99!important;
+}
+.my-custom-scrollbar th,
+.my-custom-scrollbar td{
+    border-top:1px solid #dee2e6!important;
+    border-left:0px !important;
+    border-right:0px!important;
+    border-bottom: 0px!important;
+}
+.my-custom-scrollbar .table{
+   border:0px!important;
+   margin:0px!important;
+}
+.solosoe-main-product-data{
+    border-style: solid !important;
+    margin-top: 20px;
+    border-color: rgb(8,63,76,0.5) !important;
+    border-radius: 20px !important;
+    background-color: transparent !important;
+}
+
+.carousel-item img{
+    width: 300px;
+    height: 300px !important;
+}
+input#solr-typeahead.search-field.tt-input {
+    border-radius: 6px!important;
+    width: 565px;
+    padding: 5px 0 5px 20px;
+    outline: none !important;
+    height: 50px;
+    border: 1px solid #ced4da!important;
+	background-color: #fff!important;
+	font-size: 16px;
+	color: #267f88;
+}
+.tt-dataset.tt-dataset-products {
+    width: 565px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    margin-top: 0px;
+    border-top: 0px;
+	font-size: inherit;
+}
+.tt-suggestion{
+	cursor:pointer;
+	font-size: 14px;
+    line-height: 20px;
+    color: #444;
+}
+.tt-suggestion.tt-cursor {
+    color: #444;
+    background-color: #ced4da;
+}
+.tt-hint {
+    color: transparent;
+}
+.solsoe-prod-desc{
+	max-width: 100%;
+    white-space: inherit;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.solsoe-prod-desc #description-toggle{
+	background: transparent;
+    color: #ffc107;
+    font-size: 14px;
+
+}
+#description-toggle:focus{
+	outline:0px;
+}
+
+.product-table .table th{
+    overflow: hidden;
+    z-index: 2;
+    background-color: #dee2e6;
+    position: sticky;
+    top: 0;
+}
+.text-center{
+text-align: center !important;
+}
+
+/*********08-10-20***********/
+#optimal-price p{
+ margin-top: -3px !important;
+    margin-bottom: 0px!important;
+}
+
+#shops-number{
+	height:auto !important;
+}
+#shops-number p{
+	margin-bottom: 1px !important;
+    margin-top: -4px !important;
+}
+#price-range p {
+    margin-top: -3px !important;
+    margin-bottom: 0px;
+	margin-left: 0px !important;
+    margin-right: 0px !important;
+	
+}
+.linkSpanner{
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+  z-index: 1;
+}
+@media(max-width:1160px){
+	.carousel-item img {
+     width: 100%;
+     height: 100%;
+ }
+
+}
+@media(max-width:992px){
+	#price-range p{
+		margin-left: -15px !important;
+    margin-right: -15px !important;
+	}
+	.search-box .input-group-text {
+        background-color: transparent!important;
+        border: 1px solid transparent!important;
+        /* position: absolute; */
+        margin-left: -60px!important;
+        z-index: 99!important;
+ }
+	.carousel-item img {
+    width: auto;
+    height: auto !important;
+    margin: 0 auto;
+    display: block;
+  }
+#optimal-price p {
+    margin-top: -4px !important;
+	margin-bottom: 0px !important;
+}
+	#shops-numberp{ margin-bottom: 5px !important;
+    margin-top: 0px; !important}
+   
+    #optimal-price{height: auto !important;}
+    
+	.solsoe-prod-desc {
+    max-width: 100%;
+    white-space: inherit;
+    line-height: 1.4;
+    margin: 0 auto;
+    display: table;
+    }
+	
+}
+@media(max-width:768px){
+	input#solr-typeahead.search-field.tt-input {
+    border-radius: 6px!important;
+    width: 380px;
+    padding: 5px 0 5px 20px;
+    outline: none !important;
+    height: 50px;
+    border: 1px solid #ced4da!important;
+    background-color: #fff!important;
+   }
+	.search-box .logobing {
+    width: 100px;
+    margin-right: 20px;
+    }
+	.tt-dataset.tt-dataset-products {
+    width: 380px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    margin-top: 0px;
+    border-top: 0px;
+   }
+	
+	div#shops-number{
+		margin-left:0px !important;
+	}
+	.carousel-item img {
+    width: auto;
+    height: auto !important;
+    }
+	.ct-section>.ct-section-inner-wrap {
+		display: block !important;
+		flex-direction: column;
+		align-items: flex-start;
+		overflow-x: hidden;
+	}
+	.alert-success .alert-link {
+		color: #0b2e13;
+		word-break: break-all;
+	}
+	.search-box{display:block !important;}
+    .search-box .logobing {width:60px; margin:10px auto !important; display:table!important;}
+    .search-box input {background:transparent !important;}
+	.ct-section-inner-wrap {
+     padding-top: 75px;
+     padding-right: 30px !important;
+     padding-bottom: 75px;
+     padding-left: 30px !important;
+   }
+	
+	
+}
+@media(max-width:767px){
+div#price-range{
+		max-width: 100% !important;
+		margin:10px;
+		margin-left:0px !important;
+		margin-right:0px !important
+	}
+	.carousel-item img {
+     width: auto;
+      height: auto !important;
+     margin: 0 auto;
+     display: block;
+  }
+	.col.product-name {
+   width: 100% !important;
+    max-width: 100% !important;
+    }
+}
+@media(max-width:460px){
+	.search-box .logobing {
+    width: 60px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+	input#solr-typeahead.search-field.tt-input {
+    border-radius: 6px!important;
+    width: 300px;
+    padding: 5px 0 5px 20px;
+    outline: none !important;
+    height: 50px;
+    border: 1px solid #ced4da!important;
+    background-color: #fff!important;
+    }
+	.input-group-append {
+    margin-left: 0px;
+  } 
+	.tt-dataset.tt-dataset-products {
+    width: 300px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    margin-top: 0px;
+    border-top: 0px;
+  }
+}
+@media(max-width:400px){
+	.search-box .logobing {
+    width: 60px;
+    margin-right: 20px;
+    margin-left: 0px;
+   }
+	input#solr-typeahead.search-field.tt-input {
+    border-radius: 6px!important;
+    width: 245px;
+    padding: 5px 0 5px 10px;
+    outline: none !important;
+    height: 50px;
+    border: 1px solid #ced4da!important;
+    background-color: #fff!important;
+ }
+	.tt-dataset.tt-dataset-products {
+    width: 245px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    margin-top: 0px;
+    border-top: 0px;
+ }
+	.search-box .input-group-text {
+    background-color: transparent!important;
+    border: 1px solid transparent!important;
+    /* position: absolute; */
+    margin-left: -50px!important;
+    z-index: 99!important;
+   }
+	.input-group-append {
+       margin-left: 0px;
+     }
+	.search-box .input-group-text img{
+		width:20px;
+	}
+}

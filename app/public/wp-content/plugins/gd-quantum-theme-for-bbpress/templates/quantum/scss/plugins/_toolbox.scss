@@ -1,0 +1,83 @@
+#{$base} {
+    .gdbbx-canned-replies {
+        .gdbbx-canned-replies-list {
+            legend {
+                .gdbbx-canned-replies-hide {
+                    margin-left: 40px;
+                }
+            }
+        }
+    }
+
+    .gdbbx-report-wrapper {
+        border: 0;
+        padding: 0;
+
+        fieldset {
+            &.bbp-form {
+                > div {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .gdbbx-footer-meta {
+        background: $color-post-author-background;
+
+        .gdbbx-admin-links {
+            color: $color-text;
+
+            a, span {
+                color: $color-link;
+                font-size: 13px;
+                text-transform: none;
+            }
+        }
+    }
+
+    .gdbbx-forum-index-block {
+        .gdbbx-forums-inner-block {
+            h4 {
+                padding: 10px;
+                background: $color-list-header-background;
+                color: $color-list-header-text;
+            }
+
+            div {
+                margin: 15px;
+
+                a {
+                    color: $color-link;
+                }
+
+                p {
+                    color: $color-text;
+                    line-height: $line-height;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $grid-break-small) {
+    #{$base} {
+        .gdbbx-user-stats {
+            > * {
+                display: inline-block;
+
+                &:after {
+                    content: "·";
+                    margin: 0 3px 0 1px;
+                }
+
+                &:last-child {
+                    &:after {
+                        content: "";
+                        margin: 0 0 0 1px;
+                    }
+                }
+            }
+        }
+    }
+}

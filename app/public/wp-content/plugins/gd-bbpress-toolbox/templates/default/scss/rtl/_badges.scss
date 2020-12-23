@@ -1,0 +1,11 @@
+#{$bbp-forums} {
+    .#{$badge-prefix}-new-reply,
+    .#{$badge-prefix}-unread-forum,
+    .#{$badge-prefix}-unread-topic,
+    .#{$badge-prefix}-new-reply-topic,
+    .#{$badge-prefix}-new-posts,
+    .#{$badge-prefix}-new-topic {
+        margin: 0 0 0 4px;
+        float: right;
+    }
+}

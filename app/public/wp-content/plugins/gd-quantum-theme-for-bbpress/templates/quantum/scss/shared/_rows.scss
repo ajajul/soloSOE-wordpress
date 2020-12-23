@@ -1,0 +1,31 @@
+.type-topic {
+    &.status-spam {
+        .bbp-row {
+            background: $color-spam-background;
+        }
+    }
+
+    &.status-trash {
+        .bbp-row {
+            background: $color-trash-background;
+        }
+    }
+
+    &.status-pending {
+        .bbp-row {
+            background: $color-pending-background;
+        }
+    }
+
+    &.sticky {
+        .bbp-row {
+            background: $color-sticky-background;
+        }
+    }
+
+    &.super-sticky {
+        .bbp-row {
+            background: $color-super-sticky-background;
+        }
+    }
+}

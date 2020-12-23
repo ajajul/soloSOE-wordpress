@@ -1,0 +1,66 @@
+// Base Calc Colors //
+$color-darken-background: darken($color-common-background, 5%) !default;
+$color-darker-background: darken($color-common-background, 10%) !default;
+$color-lighten-background: lighten($color-common-background, 3%) !default;
+$color-lighter-background: lighten($color-common-background, 4%) !default;
+$color-common-line: $color-darker-background !default;
+
+// Forms Elements //
+$border-radius-form-field: 0 !default;
+$border-width-form-field: 2px !default;
+
+// Forms Colors //
+$color-form-background: $color-background !default;
+$color-form-border: $color-darken-background !default;
+$color-form-text: $color-text !default;
+$color-form-link: $color-link !default;
+
+$color-form-fieldset-background: $color-form-background !default;
+$color-form-fieldset-border: $color-form-border !default;
+$color-form-fieldset-text: $color-form-text !default;
+$color-form-fieldset-link: $color-form-link !default;
+
+$color-form-field-background: lighten($color-form-background, 10%) !default;
+$color-form-field-border: $color-form-border !default;
+$color-form-field-text: lighten($color-form-text, 15%) !default;
+
+$color-form-button-background: $color-form-border !default;
+$color-form-button-secondary-background: $color-common-background !default;
+$color-form-button-link: $color-form-link !default;
+
+$color-form-search-border: $color-form-border !default;
+
+// List Colors //
+$color-list-header-background: $color-darker-background !default;
+$color-list-header-text: $color-text !default;
+$color-list-row-background: $color-lighter-background !default;
+$color-list-row-text: $color-text !default;
+$color-list-row-link: $color-link !default;
+
+// Posts Colors //
+$color-post-author-background: $color-lighten-background !default;
+$color-post-author-text: $color-text !default;
+$color-post-author-link: $color-link !default;
+
+// Action Banner //
+$color-action-banner-background: $color-darker-background !default;
+$color-action-banner-text: $color-text !default;
+$color-action-banner-link: $color-link !default;
+
+// Breadcrumbs //
+$color-breadcrumbs-background: $color-common-background !default;
+$color-breadcrumbs-text: $color-text !default;
+$color-breadcrumbs-link: $color-link !default;
+
+// Topic Tag //
+$color-topic-tag-background: $color-lighten-background !default;
+$color-topic-tag-border: $color-darker-background !default;
+$color-topic-tag-link: $color-link !default;
+
+// Pager //
+$color-pager-numbers-background: $color-common-background !default;
+$color-pager-numbers-link: $color-link !default;
+
+// Forum Description //
+$color-post-descriptions-background: $color-common-background !default;
+$color-post-descriptions-text: $color-text !default;

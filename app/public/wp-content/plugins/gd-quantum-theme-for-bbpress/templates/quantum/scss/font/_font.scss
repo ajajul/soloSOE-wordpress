@@ -1,0 +1,63 @@
+.#{$prefix}-icon {
+    font: normal normal normal $font-size/1 $font-name;
+    font-size: inherit;
+    text-transform: none;
+    display: inline-block;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@each $icon, $char in $icons {
+    .#{$prefix}-icon.#{$prefix}-icon-#{$icon} {
+        &:before {
+            content: icon($char);
+        }
+    }
+}
+
+.#{$prefix}-lg {
+    font-size: 1.33333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+
+.#{$prefix}-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+@for $i from 2 to 7 {
+    .#{$prefix}-#{$i}x {
+        font-size: #{$i}em;
+    }
+}
+
+/* Spin */
+.#{$prefix}-spin {
+    -webkit-animation: #{$prefix}-spin 2s infinite linear;
+    animation: #{$prefix}-spin 2s infinite linear;
+}
+
+@-webkit-keyframes #{$prefix}-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes #{$prefix}-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}

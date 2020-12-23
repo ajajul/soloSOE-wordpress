@@ -1,0 +1,223 @@
+@media only screen and (max-width: $grid-break-medium) {
+    #bbp-search-form {
+        width: 100%;
+    }
+
+    #{$base} {
+        .bbp-the-list {
+            .bbp-item {
+                &.bbp-header,
+                &.bbp-row {
+                    .bbp-item-info {
+                        .bbp-forum-counts,
+                        .bbp-topic-counts {
+                            border-top: 1px solid $color-list-header-background;
+                            margin: 10px 0 0;
+                            padding: 5px 0 0;
+                        }
+                    }
+
+                    .bbp-item-meta {
+                        .bbp-item-count {
+                            display: none;
+                        }
+
+                        .bbp-item-activity,
+                        .bbp-item-freshness {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $grid-break-small) {
+    #{$base} {
+        .bbp-pagination {
+            .bbp-pagination-count {
+                float: none;
+                text-align: center;
+            }
+
+            .bbp-pagination-links {
+                float: none;
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+
+        .bbp-post-user-controls {
+            a {
+                span {
+                    display: none;
+                }
+            }
+        }
+
+        .bbp-the-list {
+            .bbp-item {
+                &.bbp-header {
+                    .bbp-item-info {
+                        width: 100%;
+                    }
+
+                    .bbp-item-meta {
+                        .bbp-item-activity,
+                        .bbp-item-freshness {
+                            display: none;
+                        }
+                    }
+                }
+
+                &.bbp-row {
+                    display: block;
+
+                    .bbp-item-info {
+                        width: 100%;
+                        padding-bottom: 0;
+                    }
+
+                    .bbp-item-meta {
+                        display: block;
+                        width: 100%;
+
+                        .bbp-item-activity,
+                        .bbp-item-freshness {
+                            padding-top: 0;
+                            margin-top: 5px;
+
+                            @include ltr {
+                                border-left: none;
+                            }
+
+                            @include rtl {
+                                border-right: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.bbp-list-content {
+                .bbp-item {
+                    &.bbp-header {
+                        .bbp-item-info {
+                            display: none;
+                        }
+
+                        .bbp-item-meta {
+                            width: 100%;
+
+                            & > div {
+                                @include ltr {
+                                    border-left: 0;
+                                }
+
+                                @include rtl {
+                                    border-right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .bbp-item {
+                    &.bbp-body {
+                        display: block;
+
+                        .bbp-post-author {
+                            width: 100%;
+
+                            border-radius: 0;
+
+                            @include ltr {
+                                border-right: 0;
+                                float: left;
+                                text-align: left;
+
+                            }
+
+                            @include rtl {
+                                border-left: 0;
+                                float: right;
+                                text-align: right;
+
+                            }
+
+                            .bbp-author-avatar {
+                                @include ltr {
+                                    float: left;
+                                    margin: 0 10px 0 0;
+                                }
+
+                                @include rtl {
+                                    float: right;
+                                    margin: 0 0 0 10px;
+                                }
+
+                                img {
+                                    max-width: 66px;
+                                    height: auto;
+                                }
+                            }
+
+                            .bbp-author-name {
+                                margin: 0;
+                            }
+                        }
+
+                        .bbp-post-wrapper {
+                            width: 100%;
+                            clear: both;
+                        }
+                    }
+                }
+            }
+        }
+
+        .bbp-user-details-wrapper {
+            #bbp-user-avatar {
+                float: none;
+                width: 100%;
+                text-align: center;
+            }
+
+            #bbp-user-information {
+                margin: 15px 0 0;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $grid-break-xs) {
+    #{$base} {
+        .bbp-banner-for-topic {
+            > span {
+                span {
+                    span {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .bbp-item {
+            .bbp-post-controls {
+                .bbp-topic-post-date {
+                    display: block;
+
+                    @include ltr {
+                        text-align: right;
+                    }
+
+                    @include rtl {
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}

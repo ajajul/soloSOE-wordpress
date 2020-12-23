@@ -1,0 +1,41 @@
+#{$base} {
+    .bbp-banner-actions {
+        border-radius: $border-radius;
+
+        span.banner-button {
+            border-radius: $border-radius;
+        }
+    }
+
+    .bbp-single-forum-description {
+        border-radius: $border-radius;
+    }
+
+    .bbp-breadcrumb {
+        border-radius: $border-radius;
+    }
+
+    .bbp-topic-info {
+        .bbp-topic-pagination {
+            .page-numbers {
+                border-radius: $border-radius;
+            }
+        }
+    }
+
+    .bbp-pagination {
+        .page-numbers {
+            border-radius: $border-radius;
+        }
+    }
+
+    .gdbbx-forums-inner-block {
+        h4 {
+            border-radius: $border-radius;
+        }
+    }
+}
+
+#bbp-search-form {
+    border-radius: $border-radius;
+}

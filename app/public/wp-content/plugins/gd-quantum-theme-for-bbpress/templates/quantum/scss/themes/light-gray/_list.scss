@@ -1,0 +1,231 @@
+#{$base} {
+    .bbp-the-list {
+        margin: 20px 0;
+        width: 100%;
+        clear: both;
+
+        background: $color-list-row-background;
+        border-bottom: 2px solid $color-list-border;
+
+        .bbp-item {
+            display: flex;
+
+            border-bottom: 1px solid $color-list-border;
+            vertical-align: top;
+            overflow: hidden;
+            margin: 0;
+
+            p {
+                margin: 0;
+                padding: 0;
+            }
+
+            .bbp-item-info {
+                width: 60%;
+                padding: 15px;
+                margin: 0;
+
+                .bbp-item-info-title {
+                    line-height: $line-height + 3px;
+                    font-size: $font-size + 1px;
+                    font-weight: bold;
+                }
+
+                .bbp-item-info-list {
+                    margin: 10px 0 0;
+                    list-style: none;
+
+                    @include ltr {
+                        border-left: 4px solid $color-list-header-background;
+                        padding: 0 0 0 10px;
+                    }
+
+                    @include rtl {
+                        border-right: 4px solid $color-list-header-background;
+                        padding: 0 10px 0 0;
+                    }
+
+                    li {
+                        line-height: $line-height + 2px;
+                        list-style: none;
+                        margin: 0;
+                    }
+                }
+            }
+
+            .bbp-item-meta {
+                display: flex;
+                width: 40%;
+
+                > div {
+                    padding: 15px;
+                    margin: 0;
+                }
+
+                .bbp-item-count {
+                    text-align: center;
+                    width: 20%;
+                }
+
+                .bbp-item-activity,
+                .bbp-item-freshness {
+                    width: 60%;
+                }
+            }
+
+            &.bbp-header {
+                border-bottom: 4px solid $color-list-border;
+                background: $color-list-header-background;
+                font-weight: bold;
+
+                .bbp-item-info,
+                .bbp-item-meta > div {
+                    line-height: $line-height + 8px;
+                    font-size: $font-size + 2px;
+                }
+            }
+
+            &.bbp-row {
+                color: $color-list-row-text;
+
+                a {
+                    color: $color-list-row-link;
+                }
+            }
+        }
+
+        @import "../../shared/rows";
+
+        ul {
+            &.bbp-items-list {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                > li {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+
+                    &:last-child {
+                        .bbp-item {
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.bbp-list-content {
+            .bbp-item {
+                &.bbp-header {
+                    .bbp-item-info {
+                        width: 160px;
+                    }
+
+                    .bbp-item-meta {
+                        width: calc(100% - 160px);
+
+                        .bbp-item-topic {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            .bbp-item {
+                &.bbp-body {
+                    border-bottom: 1px solid $color-list-border;
+
+                    .bbp-post-author {
+                        color: $color-post-author-text;
+                        width: 160px;
+                        padding: 10px;
+
+                        a {
+                            color: $color-post-author-link;
+                        }
+                    }
+
+                    .bbp-post-wrapper {
+                        width: calc(100% - 160px);
+                        padding: 10px;
+                    }
+
+                    &:last-child {
+                        border-bottom: none;
+
+                        .bbp-post-author {
+                            border-radius: 0 0 0 $border-radius;
+                        }
+                    }
+                }
+            }
+
+            &.bbp-lead-topic {
+                .bbp-item {
+                    &.bbp-body {
+                        border-top: 0;
+                    }
+                }
+            }
+
+            &.bbp-list-replies {
+                &.bbp-with-lead-topic {
+                    .bbp-item {
+                        &.bbp-header {
+                            .bbp-item-info,
+                            .bbp-item-meta > div {
+                                line-height: $line-height;
+                                font-size: $font-size;
+                            }
+                        }
+                    }
+                }
+
+                .bbp-threaded-replies {
+                    @include ltr {
+                        margin-left: 20px;
+                    }
+
+                    @include rtl {
+                        margin-right: 2-0px;
+                    }
+
+                    .bbp-threaded-replies-wrapper {
+                        list-style: none;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+            }
+
+            &.bbp-search-results {
+                .bbp-item {
+                    &.bbp-body {
+                        margin-bottom: 2px;
+                    }
+                }
+
+                .bbp-search-result-header {
+                    background: $color-list-header-background;
+                    color: $color-list-header-text;
+                    padding: 10px;
+
+                    .bbp-forum-title,
+                    .bbp-topic-title,
+                    .bbp-reply-title {
+                        h3 {
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+                }
+
+                .bbp-forum-content {
+                    padding: 10px 5px;
+                }
+            }
+        }
+    }
+}

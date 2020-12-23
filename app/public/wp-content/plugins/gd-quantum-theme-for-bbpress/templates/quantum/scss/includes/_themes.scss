@@ -1,0 +1,84 @@
+// TwentySixteen //
+@media screen and (min-width: 44.375em) {
+    body {
+        &.theme-stylesheet-twentysixteen.gd-quantum-theme {
+            main#main {
+                > article {
+                    > .entry-content {
+                        margin-right: 7.6923%;
+                        margin-left: 7.6923%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 61.5625em) {
+    body {
+        &.theme-stylesheet-twentysixteen.gd-quantum-theme {
+            main#main {
+                > article {
+                    > .entry-content {
+                        width: 100%;
+                        margin-right: 0;
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// TwentySixteen //
+
+// TwentySeventeen //
+@media screen and (min-width: 48em) {
+    body {
+        &.theme-stylesheet-twentyseventeen.gd-quantum-theme {
+            #primary {
+                main#main {
+                    > article {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// TwentySeventeen //
+
+// TwentyNineteen //
+@media only screen and (min-width: 1168px) {
+    body {
+        &.theme-stylesheet-twentynineteen.gd-quantum-theme {
+            main#main {
+                > article {
+                    > .entry-header {
+                        > .entry-meta {
+                            display: none;
+                        }
+                    }
+
+                    > .entry-content {
+                        > * {
+                            max-width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+body {
+    &.theme-stylesheet-twentynineteen.gd-quantum-theme {
+        h1:not(.site-title):before,
+        h2:before {
+            display: none;
+        }
+    }
+}
+
+// TwentyNineteen //

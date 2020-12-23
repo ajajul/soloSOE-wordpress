@@ -1,0 +1,63 @@
+#bbp-search-form {
+    border: 2px solid $color-form-search-border;
+    width: 60%;
+    margin: 0 auto 20px;
+    position: relative;
+
+    #ts,
+    #rs,
+    #bbp_search {
+        background: $color-background;
+        box-shadow: none;
+        border: none;
+        width: 100%;
+        height: 38px;
+        margin: 0;
+
+        @include ltr {
+            padding: 10px 50px 10px 10px;
+        }
+
+        @include rtl {
+            padding: 10px 10px 10px 50px;
+        }
+    }
+
+    #bbp_search_submit {
+        background: transparent;
+        color: $color-text;
+        position: absolute;
+        top: 0;
+        border: none;
+        padding: 10px;
+        margin: 0;
+        font-size: 1.2em;
+        line-height: 1;
+        box-sizing: content-box;
+        width: 18px;
+        height: 18px;
+
+        @include ltr {
+            right: 0;
+        }
+
+        @include rtl {
+            left: 0;
+        }
+    }
+}
+
+.bbpress-content-forum-archive {
+    .bbp-search-form {
+        margin-bottom: 20px;
+    }
+}
+
+#{$base} {
+    .bbp-the-list {
+        &.bbp-search-results {
+            padding: 10px 0;
+            margin: 0;
+        }
+    }
+}

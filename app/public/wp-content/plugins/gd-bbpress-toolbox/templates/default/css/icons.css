@@ -1,0 +1,115 @@
+.gdbbx-image-mark {
+  background: transparent url(icons/gdbbx.png);
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.gdbbx-image-mark.gdbbx-image-lock {
+  background-position: 0 -288px;
+}
+
+.gdbbx-image-mark.gdbbx-image-reply {
+  background-position: 0 -304px;
+}
+
+.gdbbx-image-mark.gdbbx-image-stick {
+  background-position: 0 -320px;
+}
+
+.gdbbx-image-mark.gdbbx-image-private {
+  background-position: 0 -336px;
+}
+
+.gdbbx-image-mark.gdbbx-image-arrow {
+  background-position: 0 -352px;
+}
+
+.gdbbx-image-mark.gdbbx-image-close {
+  background-position: 0 -368px;
+}
+
+.gdbbx-image-mark.gdbbx-image-arrow {
+  margin-left: 4px;
+  margin-right: 0;
+}
+
+.gdbbx-attachments ol.with-icons li {
+  line-height: 16px;
+  height: 16px;
+  list-style: none;
+  padding: 0 0 0 18px;
+}
+.gdbbx-attachments ol.with-icons li.gdbbx-image {
+  background: transparent url(icons/gdbbx.png) no-repeat !important;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-ai {
+  background-position: 0 -128px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-archive {
+  background-position: 0 -144px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-audio {
+  background-position: 0 -256px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-code {
+  background-position: 0 -32px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-documents {
+  background-position: 0 -240px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-excel {
+  background-position: 0 -64px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-generic {
+  background-position: 0 -16px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-html {
+  background-position: 0 -208px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-icon {
+  background-position: 0 -272px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-image {
+  background-position: 0 -96px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-pdf {
+  background-position: 0 -192px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-powerpoint {
+  background-position: 0 -176px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-psd {
+  background-position: 0 -112px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-text {
+  background-position: 0 -160px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-video {
+  background-position: 0 -224px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-word {
+  background-position: 0 -80px;
+}
+
+.gdbbx-attachments li.gdbbx-image.gdbbx-image-xml {
+  background-position: 0 -48px;
+}

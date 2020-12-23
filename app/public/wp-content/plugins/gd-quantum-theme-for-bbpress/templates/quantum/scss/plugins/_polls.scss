@@ -1,0 +1,81 @@
+.bbp-topic-info {
+    .gdqnt-icon-poll {
+        @include ltr {
+            margin-right: 4px;
+        }
+
+        @include rtl {
+            margin-left: 4px;
+        }
+    }
+}
+
+.gdpol-fields-wrapper {
+    .gdpol-field-responses {
+        li span {
+            &._button {
+                button {
+                    @include quantum-button;
+
+                    border: none !important;
+                    height: 40px !important;
+                    line-height: 28px !important;
+                    border-radius: $border-radius !important;
+                }
+            }
+        }
+
+        .gdpol-new-response {
+            @include quantum-button;
+
+            border: none !important;
+            color: $color-form-button-link !important;
+        }
+    }
+}
+
+.gdpol-topic-poll {
+    color: $color-text;
+    margin: 15px 0;
+
+    a {
+        color: $color-link;
+    }
+}
+
+@if $theme == default-gray {
+    .gdpol-topic-poll {
+        border: 1px solid $color-list-header-background;
+        background: $color-lighten-background;
+
+        header {
+            background: $color-common-background;
+            color: $color-text;
+        }
+
+        footer {
+            background: $color-common-background;
+            color: $color-text;
+        }
+    }
+} @else if $theme == classic-gray {
+    .gdpol-topic-poll {
+        border-radius: $border-radius;
+        border: 1px solid $color-list-header-background;
+        background: $color-lighten-background;
+    }
+} @else if $theme == light-gray {
+    .gdpol-topic-poll {
+        background: $color-list-header-background;
+
+        header {
+            border-bottom: 4px solid $color-list-border;
+            background: $color-common-background;
+        }
+
+        footer {
+            border-top: 2px solid $color-list-border;
+            background: $color-common-background;
+        }
+    }
+}

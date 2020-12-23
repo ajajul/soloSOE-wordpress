@@ -1,0 +1,259 @@
+.d4p-wrap {
+    &.d4p-panel-dashboard {
+        .d4p-sidebar {
+            .d4p-dashboard-badge {
+                padding: 15px;
+                text-align: center;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+
+                .d4p-dashboard-sidebard-svg-sign {
+                    max-width: 360px;
+                    width: 80%;
+                    height: auto;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+
+                * {
+                    color: #FFF;
+                }
+
+                h3 {
+                    word-break: keep-all;
+                    font-weight: 600;
+                    letter-spacing: -1px;
+                    margin: 5px 0 15px;
+                    padding: 0;
+                    text-transform: uppercase;
+                    line-height: 1.1;
+                    font-size: 30px;
+                }
+
+                h5 {
+                    margin: 0;
+                    padding: 10px 0 0;
+                    border-top: 1px solid #DDD;
+                    font-size: 1.3em;
+                    text-align: right;
+                }
+            }
+
+            .d4p-links-group {
+                margin: 15px 0 0;
+                padding: 15px 0 0;
+                border-top: 1px solid #DDD;
+
+                a {
+                    display: block;
+                    margin: 0 0 5px;
+
+                    i {
+                        font-size: 1.3em;
+                        width: 1.3em;
+                        text-align: center;
+                    }
+
+                    span {
+                        font-size: 120%;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+        .d4p-content {
+            .d4p-cards-wrapper {
+                width: 100%;
+                max-width: 1195px;
+            }
+
+            .d4p-group {
+                &.d4p-dashboard-card {
+                    display: block;
+                    width: calc((100% - 15px) / 2);
+                    max-width: 590px;
+                    margin: 0 0 15px;
+                    clear: none;
+
+                    &:nth-child(odd) {
+                        margin-right: 15px;
+                    }
+
+                    &.d4p-card-basic {
+                        float: none;
+                        width: 100%;
+                        max-width: 800px;
+                    }
+
+                    &.d4p-card-double {
+                        float: none;
+                        width: 100%;
+                        max-width: 1195px;
+
+                        .d4p-group-inner {
+                            font-size: 105%;
+                        }
+                    }
+
+                    .d4p-group-inner {
+                        padding: 15px;
+
+                        h4 {
+                            margin: 0 0 15px;
+                            font-size: 1.15em;
+                        }
+
+                        ul {
+                            list-style: none;
+                            margin: 0;
+
+                            li {
+                                margin: 3px 0;
+                            }
+
+                            &.d4p-with-bullets {
+                                list-style: outside disc;
+                                margin-left: 20px;
+
+                                li {
+                                    list-style: inherit;
+                                }
+                            }
+                        }
+                    }
+
+                    .d4p-group-footer {
+                        border-top: 1px solid #EEE;
+                        padding: 10px 15px;
+                        text-align: left;
+                    }
+
+                    .d4p-card-badge {
+                        border-radius: 2px;
+                        margin-left: 5px;
+                        color: #FFF;
+                        display: inline-block;
+                        padding: 0 6px 2px;
+                        line-height: 1.5;
+
+                        .d4p-icon {
+                            font-size: 82%;
+                            margin-right: 5px;
+                            vertical-align: baseline;
+                        }
+
+                        &.d4p-badge-right {
+                            float: right;
+                        }
+
+                        &.d4p-badge-green,
+                        &.d4p-badge-ok {
+                            background: #090;
+                        }
+
+                        &.d4p-badge-red,
+                        &.d4p-badge-error {
+                            background: #900;
+                        }
+
+                        &.d4p-badge-purple,
+                        &.d4p-badge-maintenance {
+                            background: #813E99;
+                        }
+
+                        &.d4p-badge-blue,
+                        &.d4p-badge-upgrade {
+                            background: #0A63A5;
+                        }
+                    }
+
+                    .d4p-group-header {
+                        border-bottom: 1px solid #EEE;
+                        padding: 10px 15px;
+                        background: #FAFAFA;
+                        text-align: left;
+                    }
+
+                    .d4p-group-inner,
+                    .d4p-group-header,
+                    .d4p-group-footer {
+                        ul {
+                            list-style: none;
+                            padding: 0;
+                            margin: 0;
+
+                            li {
+                                list-style: none;
+                                padding: 0;
+                                margin: 0;
+                                line-height: 2em;
+                                font-size: 1em;
+                                width: 50%;
+                                float: left;
+
+                                a {
+                                    text-decoration: none;
+
+                                    i {
+                                        color: #555;
+                                        font-size: 105%;
+                                        margin-right: 3px;
+                                    }
+
+                                    strong {
+                                        font-weight: 700;
+                                    }
+                                }
+
+                                .d4p-card-badge {
+                                    margin-top: 2px;
+                                }
+
+                                &:nth-child(odd) {
+                                    padding-right: 10px;
+                                }
+
+                                &:nth-child(even) {
+                                    padding-left: 10px;
+                                }
+                            }
+
+                            &.d4p-full-width {
+                                li {
+                                    float: none;
+                                    width: 100%;
+                                    padding: 0;
+                                }
+                            }
+                        }
+                    }
+
+                    .d4p-status-message {
+                        font-weight: bold;
+                    }
+
+                    .d4p-dashboard-status-row {
+                        display: block;
+                        margin: 8px 0 8px;
+                        font-size: 15px;
+                        line-height: 24px;
+
+                        .d4p-type-toggle {
+                            font-size: 22px;
+                            vertical-align: bottom;
+                            margin: 0 5px 0 0;
+
+                            &.d4p-type-status-enabled {
+                                color: #3B7D33;
+                            }
+
+                            &.d4p-type-status-disabled {
+                                color: #D05757;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

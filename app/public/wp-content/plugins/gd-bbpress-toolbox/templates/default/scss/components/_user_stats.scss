@@ -1,0 +1,18 @@
+#{$bbp-forums} {
+    .gdbbx-user-stats {
+        .gdbbx-value {
+            font-weight: bold;
+        }
+
+        .gdbbx-label {
+            &.gdbbx-status-offline {
+                color: #cc0000;
+            }
+
+            &.gdbbx-status-online {
+                color: #298500;
+                font-weight: bold;
+            }
+        }
+    }
+}

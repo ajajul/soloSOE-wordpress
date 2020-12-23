@@ -1,0 +1,17 @@
+#{$base} {
+    .bbp-breadcrumb {
+        background: $color-breadcrumbs-background;
+        color: $color-breadcrumbs-text;
+        margin: 0 0 15px;
+        padding: 10px;
+
+        a {
+            color: $color-breadcrumbs-link;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

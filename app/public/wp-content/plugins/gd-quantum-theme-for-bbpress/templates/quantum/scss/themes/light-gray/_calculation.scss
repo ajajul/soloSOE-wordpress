@@ -1,0 +1,74 @@
+// Base Calc Colors //
+$color-calc-border: darken($color-common-background, 7%) !default;
+$color-calc-background: lighten($color-common-background, 3%) !default;
+$color-calc-text: $color-text !default;
+$color-calc-link: $color-link !default;
+
+// Forms Elements //
+$border-radius-form-field: 0 !default;
+$border-width-form-field: 1px !default;
+
+// Forms Colors //
+$color-form-background: $color-background !default;
+$color-form-border: $color-calc-border !default;
+$color-form-text: $color-text !default;
+$color-form-link: $color-link !default;
+
+$color-form-fieldset-header-background: $color-calc-background !default;
+$color-form-fieldset-header-border: $color-form-border !default;
+$color-form-fieldset-background: $color-form-background !default;
+$color-form-fieldset-border: $color-form-fieldset-header-background !default;
+$color-form-fieldset-text: $color-form-text !default;
+$color-form-fieldset-link: $color-form-link !default;
+
+$color-form-field-background: lighten($color-form-background, 10%) !default;
+$color-form-field-border: $color-form-border !default;
+$color-form-field-text: lighten($color-form-text, 15%) !default;
+
+$color-form-button-background: $color-form-border !default;
+$color-form-button-secondary-background: $color-common-background !default;
+$color-form-button-link: $color-form-link !default;
+
+$color-form-search-border: $color-form-border !default;
+
+// List Colors //
+$color-list-border: $color-calc-border !default;
+$color-list-header-background: $color-calc-background !default;
+$color-list-header-text: $color-calc-text !default;
+$color-list-header-link: $color-calc-link !default;
+$color-list-row-background: $color-background !default;
+$color-list-row-text: $color-text !default;
+$color-list-row-link: $color-link !default;
+
+// Posts Colors //
+$color-post-author-background: $color-calc-background !default;
+$color-post-author-text: $color-calc-text !default;
+$color-post-author-link: $color-calc-link !default;
+
+// Action Banner //
+$color-action-banner-background: $color-calc-background !default;
+$color-action-banner-text: $color-calc-text !default;
+$color-action-banner-link: $color-calc-link !default;
+
+// Breadcrumbs //
+$color-breadcrumbs-background: $color-calc-background !default;
+$color-breadcrumbs-text: $color-calc-text !default;
+$color-breadcrumbs-link: $color-calc-link !default;
+
+// Topic Tag //
+$color-topic-tag-background: $color-calc-background !default;
+$color-topic-tag-border: $color-calc-border !default;
+$color-topic-tag-link: $color-calc-link !default;
+
+// Pager //
+$color-pager-numbers-background: $color-calc-background !default;
+$color-pager-numbers-link: $color-calc-link !default;
+
+// Forum Description //
+$color-post-descriptions-background: $color-calc-background !default;
+$color-post-descriptions-text: $color-calc-text !default;
+
+// Compatibility //
+$color-darker-background: $color-calc-border;
+$color-lighter-background: $color-calc-background;
+$color-common-line: $color-calc-border !default;

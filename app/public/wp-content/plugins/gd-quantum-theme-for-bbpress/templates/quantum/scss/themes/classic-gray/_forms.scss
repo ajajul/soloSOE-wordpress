@@ -1,0 +1,138 @@
+#{$base} {
+    .bbp-topic-form {
+        margin: 15px 0 0;
+    }
+
+    .wp-editor-wrap {
+        box-sizing: content-box;
+
+        * {
+            box-sizing: content-box;
+        }
+
+        textarea {
+            box-sizing: border-box;
+        }
+
+        .wp-media-buttons .button {
+            margin-bottom: 3px;
+        }
+    }
+
+    fieldset {
+        &.bbp-form {
+            border: 2px solid $color-form-fieldset-border;
+            background: $color-form-fieldset-background;
+            color: $color-form-fieldset-text;
+            border-radius: 0 $border-radius $border-radius $border-radius;
+            position: relative;
+            padding: 15px;
+            margin: 50px 0 0;
+
+            .bbp-form {
+                margin-bottom: 15px;
+
+                legend {
+                    font-size: 100%;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            .bbp-template-notice {
+                padding: 10px 15px;
+            }
+
+            a {
+                color: $color-form-fieldset-link;
+            }
+
+            ul {
+                margin: 0;
+                list-style: none;
+
+                li {
+                    margin: 0;
+                }
+            }
+
+            legend,
+            > div > p,
+            > div,
+            .bbp-the-content-wrapper,
+            .bbp-form-field {
+                clear: both;
+                margin: 0 0 10px;
+
+                @import "../../shared/form";
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            legend {
+                background: $color-form-fieldset-border;
+                color: $color-text;
+                top: -$line-height - 19px;
+                border-radius: $border-radius $border-radius 0 0;
+                position: absolute;
+                display: block;
+                left: -2px;
+                padding: 9px 10px 6px 10px;
+                white-space: nowrap;
+                line-height: $line-height + 2;
+                font-size: $font-size * 1.1;
+                font-weight: bold;
+                margin: 0;
+            }
+
+            .bbp-submit-wrapper {
+                border-top: 2px solid $color-form-fieldset-border;
+                padding: 15px 0 0;
+                margin: 15px 0 0;
+
+                #bbp-cancel-reply-to-link {
+                    background: $color-form-button-link;
+                    color: $color-form-button-background;
+                    cursor: pointer;
+                    display: inline-block;
+                    outline: 0;
+                    border: 0;
+                    border-radius: $border-radius;
+                    padding: 8px 32px;
+                    font-weight: bold;
+
+                    @include ltr {
+                        margin-right: 10px;
+                    }
+
+                    @include rtl {
+                        margin-left: 10px;
+                    }
+
+                    &:hover {
+                        background: darken($color-form-button-link, 15%);
+                        color: darken($color-form-button-background, 15%);
+                    }
+                }
+            }
+        }
+
+        &.submit,
+        &.bbp-form {
+            button[type=submit],
+            .#{$prefix}-button {
+                @include quantum-button;
+            }
+        }
+
+        &.submit {
+            background: $color-background;
+            padding: 0;
+            border: 0;
+        }
+    }
+}

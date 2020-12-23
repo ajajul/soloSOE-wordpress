@@ -1,0 +1,212 @@
+.#{$prefix}-hidden {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    position: absolute;
+    background: none;
+    left: -999em;
+}
+
+.screen-reader-text,
+.screen-reader-text span,
+.ui-helper-hidden-accessible {
+    position: absolute;
+    margin: -1px;
+    padding: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    border: 0;
+    word-wrap: normal !important;
+}
+
+.#{$prefix}-clear {
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+#{$base} {
+    background: transparent;
+    color: $color-text;
+
+    clear: both;
+    overflow: hidden;
+    box-sizing: border-box;
+
+    font-size: $font-size;
+    line-height: $line-height;
+
+    .hentry {
+        margin: 0;
+        padding: 0;
+    }
+
+    * {
+        box-sizing: border-box;
+
+        font-size: inherit;
+        line-height: inherit;
+    }
+
+    a {
+        color: $color-link;
+        text-decoration: none;
+        box-shadow: none;
+        border-bottom: 0;
+
+        &:hover, &:active {
+            color: lighten($color-link, 10);
+            text-decoration: underline;
+        }
+
+        &.bbp-author-link {
+            white-space: nowrap;
+            display: inline;
+        }
+    }
+
+    .bbp-author-avatar {
+        img.avatar {
+            box-shadow: unset;
+            vertical-align: top;
+            display: inline-block;
+            border-radius: 1px;
+            padding: 0;
+            border: 0;
+            float: none;
+
+            @include ltr {
+                margin-right: 3px;
+            }
+
+            @include rtl {
+                margin-left: 3px;
+            }
+
+            &.avatar-14 {
+                margin-top: 4px;
+                height: 14px;
+                width: 14px;
+            }
+
+            &.avatar-16 {
+                margin-top: 3px;
+                height: 16px;
+                width: 16px;
+            }
+        }
+    }
+
+    article {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        padding: 0;
+    }
+
+    .#{$prefix}-icon {
+        vertical-align: top;
+    }
+}
+
+#{$base} {
+    #password {
+        #pass-strength-result {
+            width: 100%;
+            background-color: #EEE;
+            border: 1px solid $color-common-line;
+            color: #23282D;
+            margin: 0;
+            padding: 8px;
+            text-align: center;
+            box-sizing: border-box;
+            display: inline-block;
+
+            &.short {
+                background-color: #F1ADAD;
+                border-color: #E35B5B;
+                opacity: 1;
+            }
+
+            &.bad {
+                background-color: #FBC5A9;
+                border-color: #F78B53;
+                opacity: 1;
+            }
+
+            &.good {
+                background-color: #FFE399;
+                border-color: #FFC733;
+                opacity: 1;
+            }
+
+            &.strong {
+                background-color: #C1E1B9;
+                border-color: #83C373;
+                opacity: 1;
+            }
+        }
+
+        #pass1.short,
+        #pass1-text.short {
+            border-color: #E35B5B;
+        }
+
+        #pass1.bad,
+        #pass1-text.bad {
+            border-color: #F78B53;
+        }
+
+        #pass1.good,
+        #pass1-text.good {
+            border-color: #FFC733;
+        }
+
+        #pass1.strong,
+        #pass1-text.strong {
+            border-color: #83C373;
+        }
+
+        .indicator-hint {
+            padding-top: 8px;
+        }
+    }
+
+    .pw-weak,
+    #pass1-text,
+    .show-password #pass1 {
+        display: none;
+    }
+
+    .show-password #pass1-text {
+        display: inline-block;
+    }
+}
+
+.bbp-content-statistics {
+    dl {
+        line-height: $line-height;
+    }
+
+    dt {
+        clear: both;
+        float: left;
+    }
+
+    dd {
+        float: right;
+    }
+}

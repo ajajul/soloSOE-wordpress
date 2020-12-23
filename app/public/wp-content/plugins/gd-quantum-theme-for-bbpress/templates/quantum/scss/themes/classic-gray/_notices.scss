@@ -1,0 +1,23 @@
+#{$container},
+#{$base} {
+    .bbp-template-notice {
+        border-radius: $border-radius;
+        border: $notice-border-width solid $color-notice-basic-border;
+
+        &.important {
+            border: $notice-border-width solid $color-notice-important-border;
+        }
+
+        &.info {
+            border: $notice-border-width solid $color-notice-info-border;
+        }
+
+        &.warning {
+            border: $notice-border-width solid $color-notice-warning-border;
+        }
+
+        &.error {
+            border: $notice-border-width solid $color-notice-error-border;
+        }
+    }
+}

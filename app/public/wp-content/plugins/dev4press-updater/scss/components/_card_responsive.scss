@@ -1,0 +1,127 @@
+@media screen and (max-width: 540px) {
+    .d4p-wrap {
+        .plugin-card {
+            .plugin-icon {
+                display: none;
+            }
+
+            .name, 
+            .desc {
+                margin-left: 0;
+            }
+
+            .column-downloaded {
+                display: block;
+                width: 100%;
+                max-width: 80%;
+                margin: 0 auto;
+                float: none;
+            }
+
+            .column-current-version {
+                float: none;
+                margin-bottom: 10px;
+                text-align: center;
+                width: 100%;
+            }
+
+            .column-compatibility, 
+            .column-updated {
+                width: 100%;
+                text-align: center;
+                margin-top: 10px;
+                float: none;
+                line-height: 18px;
+            }
+        }
+    }
+
+    .d4pupd-single-feeditem {
+        &.plugin-card {
+            .column-rating {
+                width: 100%;
+                max-width: 100%;
+                float: none;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .d4p-block-update-check {
+        > a {
+            display: block !important;
+            max-width: 75%;
+            margin: 4px auto 0 !important;
+            float: none !important;
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .d4p-wrap {
+        .plugin-card {
+            margin-right: 0;
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .d4p-wrap {
+        .plugin-card {
+            width: 48.5%;
+            width: calc(50% - 8px);
+
+            &:nth-child(odd) {
+                clear: both;
+                margin-left: 0;
+            }
+
+            &:nth-child(even) {
+                margin-right: 0;
+            }
+
+            &:nth-child(2n+1) {
+                margin-right: 8px;
+            }
+
+            &:nth-child(2n) {
+                margin-left: 8px;
+            }
+
+            &:nth-child(3n+1) {
+                clear: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .d4p-wrap {
+        .plugin-card {
+            width: 30%;
+            width: calc(33.1% - 8px);
+
+            &:nth-child(odd) {
+                clear: none;
+                margin-left: 8px;
+            }
+
+            &:nth-child(even) {
+                margin-right: 8px;
+            }
+
+            &:nth-child(3n+1) {
+                clear: both;
+                margin-left: 0;
+            }
+
+            &:nth-child(3n) {
+                margin-right: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+// Basic //
+$prefix: gdbbx;
+
+// Font //
+$font-version: "630.980";
+$font-name: gdbbx;
+$font-prefix: gdbbx;
+$font-size: 14px;
+
+// Components //
+$attachments: #{$prefix}-attachments;
+$thanks: #{$prefix}-thanks-wrapper;
+$report: #{$prefix}-report-wrapper;
+$toolbar: #{$prefix}-bbcodes-toolbar;
+$signatures: #{$prefix}-signature;
+$signature-form: #{$prefix}-signature-form;
+
+// Components Prefixes //
+$badge-prefix: #{$prefix}-badge;
+$attachments-prefix: #{$prefix}-attachments;
+
+// bbPress //
+$bbp-form: bbp-form;
+$bbp-forums: #bbpress-forums;
+$bbp-profile: #bbp-your-profile;
+
+// BuddyPress //
+$buddypress: #buddypress;

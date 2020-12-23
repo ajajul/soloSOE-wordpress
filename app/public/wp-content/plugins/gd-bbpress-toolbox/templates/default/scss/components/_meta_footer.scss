@@ -1,0 +1,21 @@
+#{$bbp-forums} {
+    .gdbbx-footer-meta {
+        background-color: #f4f4f4;
+        padding: 8px;
+        margin: 12px 0 0;
+        overflow: auto;
+
+        .gdbbx-admin-links {
+            float: right;
+
+            a,
+            span {
+                color: #bbbbbb;
+                font-weight: 400;
+                font-size: 10px;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+        }
+    }
+}

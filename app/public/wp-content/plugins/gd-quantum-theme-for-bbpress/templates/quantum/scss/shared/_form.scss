@@ -1,0 +1,117 @@
+$checkbox-icon-dim: 18px - 2 * $border-width-form-field;
+
+br {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    margin: 0;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+input:not([type]),
+input[type=text],
+input[type=time],
+input[type=date],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=url],
+input[type=radio],
+input[type=checkbox],
+textarea,
+select {
+    border: $border-width-form-field solid $color-form-field-border;
+    background: $color-form-field-background;
+    border-radius: $border-radius-form-field;
+    box-shadow: none;
+    vertical-align: top;
+    outline: 0;
+}
+
+input:not([type]),
+input[type=text],
+input[type=time],
+input[type=date],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=url],
+textarea,
+select {
+    width: 100%;
+    margin: 5px 0 0;
+    padding: 8px 10px;
+
+    color: $color-form-field-text;
+    line-height: $line-height;
+    height: auto;
+    text-indent: 0;
+
+    &:focus {
+        color: $color-text;
+        border-color: darken($color-form-field-border, 15%);
+    }
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    -webkit-appearance: none;
+
+    padding: 0;
+    width: 18px;
+    height: 18px;
+
+    @include ltr {
+        margin: 2px 4px 0 0;
+    }
+
+    @include rtl {
+        margin: 2px 0 0 4px;
+    }
+
+    &:checked:before {
+        margin: 0 1px;
+        display: inline-block;
+        vertical-align: top;
+        width: $checkbox-icon-dim;
+        height: $checkbox-icon-dim;
+        line-height: $checkbox-icon-dim;
+        font-size: 12px;
+        font-family: $font-name;
+        color: $color-text;
+        text-align: center;
+    }
+
+    &:focus {
+        color: $color-text;
+        border: $border-width-form-field solid darken($color-form-field-border, 15%);
+    }
+}
+
+input[type=checkbox] {
+    &:checked:before {
+        content: icon(map-get($icons, 'check'));
+    }
+}
+
+input[type=radio] {
+    &:checked:before {
+        content: icon(map-get($icons, 'square'));
+        margin: 0;
+    }
+}
+
+input[disabled] {
+    background: darken($color-form-field-background, 10%);
+}

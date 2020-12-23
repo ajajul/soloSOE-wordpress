@@ -1,0 +1,289 @@
+.gdqnt-hidden-sm,
+.gdqnt-hidden-md,
+.gdqnt-hidden-lr,
+.gdqnt-visible-sm,
+.gdqnt-visible-md,
+.gdqnt-visible-lr {
+    display: none;
+}
+
+.gdqnt-row {
+    position: relative;
+    width: 100%;
+}
+
+.gdqnt-row [class^=gdqnt-col] {
+    margin: 16px 2%;
+    min-height: 4px;
+    float: right;
+}
+
+.gdqnt-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gdqnt-col-1,
+.gdqnt-col-1-md {
+    width: 96%;
+}
+
+.gdqnt-col-2,
+.gdqnt-col-2-md {
+    width: 96%;
+}
+
+.gdqnt-col-3,
+.gdqnt-col-3-md {
+    width: 96%;
+}
+
+.gdqnt-col-4,
+.gdqnt-col-4-md {
+    width: 96%;
+}
+
+.gdqnt-col-5,
+.gdqnt-col-5-md {
+    width: 96%;
+}
+
+.gdqnt-col-6,
+.gdqnt-col-6-md {
+    width: 96%;
+}
+
+.gdqnt-col-7,
+.gdqnt-col-7-md {
+    width: 96%;
+}
+
+.gdqnt-col-8,
+.gdqnt-col-8-md {
+    width: 96%;
+}
+
+.gdqnt-col-9,
+.gdqnt-col-9-md {
+    width: 96%;
+}
+
+.gdqnt-col-10,
+.gdqnt-col-10-md {
+    width: 96%;
+}
+
+.gdqnt-col-11,
+.gdqnt-col-11-md {
+    width: 96%;
+}
+
+.gdqnt-col-12,
+.gdqnt-col-12-md {
+    width: 96%;
+}
+
+.gdqnt-col-1-sm {
+    width: 4.3333333333%;
+}
+
+.gdqnt-col-2-sm {
+    width: 12.6666666667%;
+}
+
+.gdqnt-col-3-sm {
+    width: 21%;
+}
+
+.gdqnt-col-4-sm {
+    width: 29.3333333333%;
+}
+
+.gdqnt-col-5-sm {
+    width: 37.6666666667%;
+}
+
+.gdqnt-col-6-sm {
+    width: 46%;
+}
+
+.gdqnt-col-7-sm {
+    width: 54.3333333333%;
+}
+
+.gdqnt-col-8-sm {
+    width: 62.6666666667%;
+}
+
+.gdqnt-col-9-sm {
+    width: 71%;
+}
+
+.gdqnt-col-10-sm {
+    width: 79.3333333333%;
+}
+
+.gdqnt-col-11-sm {
+    width: 87.6666666667%;
+}
+
+.gdqnt-col-12-sm {
+    width: 96%;
+}
+
+@media only screen and (min-width: 540px) {
+    .gdqnt-col-1-md {
+        width: 4.3333333333%;
+    }
+
+    .gdqnt-col-2-md {
+        width: 12.6666666667%;
+    }
+
+    .gdqnt-col-3-md {
+        width: 21%;
+    }
+
+    .gdqnt-col-4-md {
+        width: 29.3333333333%;
+    }
+
+    .gdqnt-col-5-md {
+        width: 37.6666666667%;
+    }
+
+    .gdqnt-col-6-md {
+        width: 46%;
+    }
+
+    .gdqnt-col-7-md {
+        width: 54.3333333333%;
+    }
+
+    .gdqnt-col-8-md {
+        width: 62.6666666667%;
+    }
+
+    .gdqnt-col-9-md {
+        width: 71%;
+    }
+
+    .gdqnt-col-10-md {
+        width: 79.3333333333%;
+    }
+
+    .gdqnt-col-11-md {
+        width: 87.6666666667%;
+    }
+
+    .gdqnt-col-12-md {
+        width: 96%;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .gdqnt-col-1 {
+        width: 4.3333333333%;
+    }
+
+    .gdqnt-col-2 {
+        width: 12.6666666667%;
+    }
+
+    .gdqnt-col-3 {
+        width: 21%;
+    }
+
+    .gdqnt-col-4 {
+        width: 29.3333333333%;
+    }
+
+    .gdqnt-col-5 {
+        width: 37.6666666667%;
+    }
+
+    .gdqnt-col-6 {
+        width: 46%;
+    }
+
+    .gdqnt-col-7 {
+        width: 54.3333333333%;
+    }
+
+    .gdqnt-col-8 {
+        width: 62.6666666667%;
+    }
+
+    .gdqnt-col-9 {
+        width: 71%;
+    }
+
+    .gdqnt-col-10 {
+        width: 79.3333333333%;
+    }
+
+    .gdqnt-col-11 {
+        width: 87.6666666667%;
+    }
+
+    .gdqnt-col-12 {
+        width: 96%;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .gdqnt-hidden-sm,
+    .gdqnt-visible-md {
+        display: block;
+    }
+
+    .gdqnt-hidden-sm.gdqnt-inline,
+    .gdqnt-visible-md.gdqnt-inline {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .gdqnt-visible-md {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .gdqnt-hidden-md,
+    .gdqnt-visible-lr {
+        display: block;
+    }
+
+    .gdqnt-hidden-md.gdqnt-inline,
+    .gdqnt-visible-lr.gdqnt-inline {
+        display: inline-block;
+    }
+
+    .gdqnt-visible-md {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .gdqnt-hidden-lr {
+        display: block;
+    }
+
+    .gdqnt-hidden-lr.gdqnt-inline {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .gdqnt-visible-sm,
+    .gdqnt-hidden-md {
+        display: block;
+    }
+
+    .gdqnt-visible-sm.gdqnt-inline,
+    .gdqnt-hidden-md.gdqnt-inline {
+        display: inline-block;
+    }
+}

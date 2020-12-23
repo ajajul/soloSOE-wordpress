@@ -1,0 +1,8 @@
+<?php
+
+add_action( 'wp_login', 'wppb_toolbox_count_user_logins', 20, 2 );
+function wppb_toolbox_count_user_logins( $user_login, $user ) {
+	if ( empty($user->ID) ) return;
+
+	update_user_meta( $user->ID, 'last_login_date', date( 'Y-m-d H:i:s' ) );
+}

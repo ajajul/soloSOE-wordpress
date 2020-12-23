@@ -1,0 +1,22 @@
+#{$container},
+#{$base} {
+    .bbp-template-notice {
+        @include quantum-default-notice-borders($notice-border-width, $color-notice-basic-border);
+
+        &.important {
+            @include quantum-default-notice-borders($notice-border-width, $color-notice-important-border);
+        }
+
+        &.info {
+            @include quantum-default-notice-borders($notice-border-width, $color-notice-info-border);
+        }
+
+        &.warning {
+            @include quantum-default-notice-borders($notice-border-width, $color-notice-warning-border);
+        }
+
+        &.error {
+            @include quantum-default-notice-borders($notice-border-width, $color-notice-error-border);
+        }
+    }
+}

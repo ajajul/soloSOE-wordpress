@@ -1,0 +1,14 @@
+body.gd-quantum-theme {
+    #{$bbp-forums} {
+        .#{$signature-form} {
+            textarea {
+                margin: 0;
+            }
+        }
+    }
+
+    .#{$toolbar} {
+        border-radius: 0;
+        border-width: 2px;
+    }
+}

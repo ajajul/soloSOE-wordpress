@@ -1,0 +1,225 @@
+#{$base} {
+    .bbp-user-details-wrapper {
+        overflow: auto;
+
+        #bbp-user-avatar {
+            margin: 0;
+
+            @include ltr {
+                float: left;
+            }
+
+            @include rtl {
+                float: right;
+            }
+
+            .vcard {
+                a {
+                    display: block;
+                    vertical-align: top;
+
+                    .avatar {
+                        box-shadow: unset;
+                        vertical-align: top;
+                        display: inline-block;
+                        border-radius: 5px;
+                        padding: 0;
+                        border: 0;
+                        width: unset;
+                        height: unset;
+                    }
+                }
+            }
+        }
+
+        #bbp-user-information {
+            @include ltr {
+                margin-left: 130px;
+            }
+
+            @include rtl {
+                margin-right: 130px;
+            }
+
+            h2, h3 {
+                clear: none;
+                padding: 0;
+                font-weight: bold;
+            }
+
+            h2 {
+                font-size: 140%;
+                margin: 0 0 5px;
+            }
+
+            h3 {
+                font-size: 110%;
+                margin: 0;
+                color: lighten($color-text, 5%);
+            }
+
+            .bbp-user-info-block {
+                border-top: 2px solid $color-common-line;
+                margin: 10px 0 0;
+                padding: 10px 0 0;
+
+                p {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .bbp-user-page-content {
+        margin-top: 20px;
+    }
+
+    #bbp-user-navigation {
+        padding: 0;
+
+        nav {
+            #bbp-menu-icon {
+                display: none;
+            }
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    display: inline-block;
+
+                    a {
+                        border-bottom: 4px solid transparent;
+                        padding: 10px 15px 6px;
+                        display: block;
+                    }
+
+                    &:hover {
+                        a {
+                            background: darken($color-darker-background, 5%);
+                            border-bottom-color: darken($color-darker-background, 5%);
+                            text-decoration: none;
+                        }
+                    }
+
+                    &.current {
+                        a {
+                            border-bottom-color: $color-link;
+                            font-weight: bold;
+                        }
+
+                        &:hover {
+                            a {
+                                border-bottom-color: $color-link;
+                            }
+                        }
+                    }
+                }
+
+                &.bbp-collapse-labels {
+                    text-align: center;
+
+                    li a {
+                        i {
+                            margin: 0 5px;
+                        }
+
+                        span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #bbp-user-profile {
+        h4 {
+            font-weight: bold;
+            margin: 0 0 15px;
+            padding: 0;
+        }
+
+        > div {
+            margin: 0 0 15px;
+        }
+
+        .bbp-user-profile-about {
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    #bbp-your-profile {
+        fieldset {
+            margin-bottom: 20px;
+
+            &.password {
+                margin-bottom: 0;
+
+                .password-input-wrapper,
+                .password-button-wrapper {
+                    display: inline-block;
+                    width: 100%;
+                    margin: 0;
+                }
+
+                .password-button-wrapper {
+                    button {
+                        display: inline-block;
+
+                        @include ltr {
+                            margin: 10px 10px 10px 0;
+                        }
+
+                        @include rtl {
+                            margin: 10px 0 10px 10px;
+                        }
+                    }
+                }
+
+                input {
+                    width: 100%;
+                }
+
+                span.description {
+                    margin-bottom: 20px;
+
+                    @include ltr {
+                        margin-left: 0;
+                    }
+
+                    @include rtl {
+                        margin-right: 0;
+                    }
+                }
+            }
+
+            .pw-weak {
+                margin-top: 10px;
+
+                .description {
+                    margin: 0;
+                    padding: 0;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+
+    #bbp-user-subscriptions {
+        li.forum {
+            #subscription-toggle {
+                i {
+                    vertical-align: unset;
+                }
+            }
+        }
+    }
+}

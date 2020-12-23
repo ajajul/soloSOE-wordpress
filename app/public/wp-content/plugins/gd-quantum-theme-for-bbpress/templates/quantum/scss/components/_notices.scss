@@ -1,0 +1,109 @@
+#{$container},
+#{$base} {
+    .bbp-template-notice {
+        border: none;
+        margin: 0 0 15px;
+        padding: $notice-padding;
+
+        background-color: $color-notice-basic-background;
+        color: $color-notice-basic-text;
+
+        > *:first-child {
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+        > *:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        a {
+            color: $color-notice-basic-link;
+
+            &:hover, &:active {
+                color: lighten($color-notice-basic-link, 20);
+            }
+        }
+
+        p {
+            margin-bottom: 5px;
+        }
+
+        ul {
+            background: none;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                background: none;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+        &.important {
+            background-color: $color-notice-important-background;
+            color: $color-notice-important-text;
+
+            a {
+                color: $color-notice-important-link;
+
+                &:hover, &:active {
+                    color: lighten($color-notice-important-link, 10%);
+                }
+            }
+        }
+
+        &.info {
+            background-color: $color-notice-info-background;
+            color: $color-notice-info-text;
+
+            a {
+                color: $color-notice-info-link;
+
+                &:hover, &:active {
+                    color: lighten($color-notice-info-link, 10%);
+                }
+            }
+        }
+
+        &.warning {
+            background-color: $color-notice-warning-background;
+            color: $color-notice-warning-text;
+
+            a {
+                color: $color-notice-warning-link;
+
+                &:hover, &:active {
+                    color: lighten($color-notice-warning-link, 10%);
+                }
+            }
+        }
+
+        &.error {
+            background-color: $color-notice-error-background;
+            color: $color-notice-error-text;
+
+            a {
+                color: $color-notice-error-link;
+
+                &:hover, &:active {
+                    color: lighten($color-notice-error-link, 10%);
+                }
+            }
+        }
+    }
+}
+
+#{$container} {
+    #bbp-content {
+        > .bbp-template-notice {
+            box-sizing: border-box;
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+}

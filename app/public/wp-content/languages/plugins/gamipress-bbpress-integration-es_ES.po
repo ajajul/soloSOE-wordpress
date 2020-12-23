@@ -1,0 +1,129 @@
+# Translation of Plugins - GamiPress &#8211; bbPress integration - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - GamiPress &#8211; bbPress integration - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-11-30 20:20:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - GamiPress &#8211; bbPress integration - Stable (latest release)\n"
+
+#: includes/admin.php:135
+msgid "Choose the rank types you want to show on user reply details."
+msgstr "Selecciona los tipos de rango que quieres mostrar en los detalles del usuario de la respuesta"
+
+#: includes/admin.php:85
+msgid "Choose the achievement types you want to show on user reply details."
+msgstr "Selecciona los tipos de logro que quieres mostrar en los detalles del usuario de la respuesta"
+
+#: includes/admin.php:52
+msgid "Choose the points types you want to show on user reply details."
+msgstr "Selecciona los tipos de puntos que quieres mostrar en los detalles del usuario de la respuesta"
+
+#. Author URI of the plugin
+msgid "https://gamipress.com/"
+msgstr "https://gamipress.com/"
+
+#. Author of the plugin
+msgid "GamiPress"
+msgstr "GamiPress"
+
+#. Description of the plugin
+msgid "Connect GamiPress with bbPress."
+msgstr "Conecta GamiPress con bbPress."
+
+#. Plugin Name of the plugin
+msgid "GamiPress - bbPress integration"
+msgstr "GamiPress - bbPress integration"
+
+#: includes/triggers.php:82
+msgid "Favorite %s"
+msgstr "Marcar como favorito %s"
+
+#: includes/triggers.php:80
+msgid "Reply on %s"
+msgstr "Responder en %s"
+
+#: includes/triggers.php:79
+msgid "Create a topic on %s forum"
+msgstr "Crear un debate en el foro %s"
+
+#: includes/triggers.php:33
+msgid "Get a new favorite on a topic"
+msgstr "Obtener un nuevo favorito en un debate"
+
+#: includes/triggers.php:31
+msgid "Favorite a specific topic"
+msgstr "Marcar como favorito un debate específico"
+
+#: includes/triggers.php:30
+msgid "Favorite a topic"
+msgstr "Marcar como favorito un debate"
+
+#: includes/triggers.php:27
+msgid "Reply to a specific topic"
+msgstr "Responder a un debate específico"
+
+#: includes/triggers.php:26
+msgid "Reply to a topic"
+msgstr "Responder a un debate"
+
+#: includes/triggers.php:24
+msgid "Create a new topic on a specific forum"
+msgstr "Crear un nuevo debate en un foro específico"
+
+#: includes/triggers.php:23
+msgid "Create a new topic"
+msgstr "Crear un nuevo debate"
+
+#: includes/triggers.php:21
+msgid "Create a new forum"
+msgstr "Crear un nuevo foro"
+
+#: includes/admin.php:204
+msgid "Ranks"
+msgstr "Rangos"
+
+#: includes/admin.php:134
+msgid "User Profile Rank Types"
+msgstr "Tipos de rango en el perfil del usuario"
+
+#: includes/admin.php:190
+msgid "Achievements"
+msgstr "Logros"
+
+#: includes/admin.php:179
+msgid "Points"
+msgstr "Puntos"
+
+#: includes/admin.php:84
+msgid "User Profile Achievement Types"
+msgstr "Tipos de logro en el perfil del usuario"
+
+#: includes/admin/recount-activity.php:24
+msgid "Recount topics favorites"
+msgstr "Recuento de debates favoritos"
+
+#: includes/admin/recount-activity.php:23
+msgid "Recount forum activities (forums, topics and replies)"
+msgstr "Recuento de las actividades del foro (foros, debates y respuestas)"
+
+#: includes/admin.php:45 includes/admin/recount-activity.php:22
+#: includes/triggers.php:20
+msgid "bbPress"
+msgstr "bbPress"
+
+#: gamipress-bbpress.php:158
+msgid "GamiPress - bbPress integration requires %s and %s in order to work. Please install and activate them."
+msgstr "GamiPress - bbPress integration  requiere %s y %s para funcionar. Por favor instálalos y actívalos."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/gamipress-bbpress-integration/"
+msgstr "https://es.wordpress.org/plugins/gamipress-bbpress-integration/"
+
+#: includes/admin.php:343
+msgid "bbPress integration"
+msgstr "Integración con bbPress"

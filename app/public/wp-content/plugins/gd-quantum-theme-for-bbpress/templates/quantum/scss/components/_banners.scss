@@ -1,0 +1,57 @@
+#{$base} {
+    .bbp-banner-actions {
+        background: $color-action-banner-background;
+        color: $color-action-banner-text;
+        margin: 15px 0;
+        padding: 15px 10px;
+        overflow: auto;
+
+        &:empty {
+            display: none;
+        }
+
+        span.banner-button {
+            background-color: $color-action-banner-link;
+            padding: 5px 8px;
+
+            a {
+                text-decoration: none;
+                color: $color-background;
+
+                &:hover,
+                &:focus {
+                    color: $color-background;
+                }
+            }
+        }
+
+        a {
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        #favorite-toggle,
+        #subscription-toggle {
+            @include ltr {
+                float: right;
+            }
+
+            @include rtl {
+                float: left;
+            }
+        }
+
+        #subscription-toggle {
+            @include ltr {
+                margin-left: 10px;
+            }
+
+            @include rtl {
+                margin-right: 10px;
+            }
+        }
+    }
+}

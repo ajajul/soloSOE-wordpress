@@ -1,0 +1,22 @@
+#{$base} {
+    form.bbp-members-directory-filter {
+        select,
+        input {
+            border: $border-width-form-field solid $color-form-field-border;
+            background: $color-form-field-background;
+            border-radius: $border-radius-form-field;
+            color: $color-form-field-text;
+
+            &:focus {
+                color: $color-text;
+                border-color: darken($color-form-field-border, 15%);
+            }
+        }
+
+        button {
+            @include quantum-button;
+
+            padding: ($border-width-form-field + 4px) 16px;
+        }
+    }
+}

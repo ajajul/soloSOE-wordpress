@@ -1,0 +1,175 @@
+.gdbbx-accessibility-show-for-sr {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+}
+
+.#{$toolbar} {
+    box-sizing: border-box;
+    display: block;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid #dddddd;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .gdbbx-buttonbar-inner {
+        overflow: hidden;
+        padding: 3px;
+    }
+
+    .gdbbx-buttonbar-button {
+        border: 1px solid #f5f5f5;
+        text-align: center;
+        border-radius: 3px;
+        float: left;
+        margin: 2px;
+
+        button {
+            &.gdbbx-button {
+                display: block;
+                text-decoration: none;
+                border: none;
+                margin: 0;
+                padding: 3px !important;
+                color: #666666 !important;
+                background: none !important;
+                width: 100%;
+                text-align: center;
+
+                i {
+                    line-height: 1 !important;
+                    vertical-align: text-top;
+                }
+            }
+        }
+
+        &:hover {
+            border: 1px solid #dddddd;
+            background-color: #ffffff;
+
+            button {
+                .gdbbx-button {
+                    color: #111111;
+                }
+            }
+        }
+    }
+
+    &.gdbbx-buttonbar-size-small {
+        .gdbbx-buttonbar-inner {
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        .gdbbx-buttonbar-button {
+            height: 24px;
+            padding: 0;
+            width: 24px !important;
+        }
+
+        .gdbbx-buttonbar-button {
+            button {
+                .gdbbx-button {
+                    height: 22px;
+                    line-height: 16px;
+                }
+            }
+        }
+    }
+
+    &.gdbbx-buttonbar-size-medium {
+        .gdbbx-buttonbar-inner {
+            font-size: 19px;
+            line-height: 21px;
+        }
+
+        .gdbbx-buttonbar-button {
+            height: 29px;
+            line-height: 27px;
+            padding: 0;
+            width: 29px !important;
+            cursor: pointer;
+
+            button {
+                .gdbbx-button {
+                    height: 27px;
+                    line-height: 21px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    &.gdbbx-buttonbar-size-large {
+        .gdbbx-buttonbar-inner {
+            font-size: 24px;
+            line-height: 26px;
+        }    
+
+        .gdbbx-buttonbar-button {
+            height: 36px;
+            line-height: 34px;
+            padding: 0;
+            width: 36px !important;
+
+            button {
+                .gdbbx-button {
+                    height: 34px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+}
+
+.#{$signature-form} {
+    margin: 0 !important;
+
+    &.gdbbx-editor-bbcodes {
+        &.gdbbx-buddypress-xprofile textarea,
+        textarea {
+            width: 100% !important;
+            margin: 0;
+            border-color: #dddddd;
+            background-color: #ffffff;
+            box-sizing: border-box;
+        }
+    }
+}
+
+#profile-page .gdbbx-signature-form.gdbbx-editor-bbcodes textarea.signature:focus {
+    box-shadow: none;
+}
+
+fieldset .gdbbx-bbcodes-toolbar,
+fieldset .gdbbx-bbcodes-toolbar div {
+    margin: 0 !important;
+    clear: none !important;
+}
+
+.bp-profile-field .gdbbx-signature-form.wp-editor-wrap {
+    margin-left: 200px !important;
+}
+
+#{$bbp-forums} {
+    .gdbbx-signature-form.gdbbx-editor-bbcodes textarea.signature {
+        width: 100% !important;
+        margin: 0 !important;
+        border-color: #dddddd !important;
+        background-color: #ffffff !important;
+    }
+}
+
+#{$buddypress} {
+    button.gdbbx-button {
+        padding: 2px 3px;
+    }
+}

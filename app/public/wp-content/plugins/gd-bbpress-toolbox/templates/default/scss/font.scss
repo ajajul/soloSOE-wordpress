@@ -1,0 +1,65 @@
+@import 'includes/_functions';
+@import 'includes/_variables';
+@import 'components/_font';
+
+@font-face {
+    font-family: $font-name;
+    src: url('fonts/gdbbx.eot?#{$font-version}');
+    src: url('fonts/gdbbx.eot?#{$font-version}#iefix') format('embedded-opentype'),
+         url('fonts/gdbbx.woff2?#{$font-version}') format('woff2'),
+         url('fonts/gdbbx.woff?#{$font-version}') format('woff'),
+         url('fonts/gdbbx.ttf?#{$font-version}') format('truetype'),
+         url('fonts/gdbbx.svg?#{$font-version}#gdbbx') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.#{$font-prefix}-icon {
+    font: normal normal normal $font-size/1 $font-name;
+    font-size: inherit;
+    text-transform: none;
+    display: inline-block;
+    vertical-align: text-bottom;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@each $icon, $char in $icons {
+    .#{$font-prefix}-icon.#{$font-prefix}-icon-#{$icon} {
+        &:before {
+            content: icon($char);
+        }
+    }
+}
+
+.#{$prefix}-lg {
+    font-size: 1.33333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+
+.#{$prefix}-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+@for $i from 2 to 7 {
+    .#{$prefix}-#{$i}x {
+        font-size: #{$i}em;
+    }
+}
+
+#{$bbp-forums} {
+    i.gdbbx-icon-mark {
+        margin-right: 4px;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    .gdbbx-new-topic-replies i.gdbbx-icon-mark {
+        margin-right: 0;
+        margin-left: 4px;
+    }
+}

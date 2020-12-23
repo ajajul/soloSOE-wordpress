@@ -1,0 +1,1603 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural - Forms: nplurals = INTEGER; plural = EXPRESSION;\n"
+"Project-Id-Version: GD Quantum Theme Pro for bbPress\n"
+"POT-Creation-Date: 11/22/2020 08:52:11 AM\n"
+"Language-Team: Milan Petrovic <support@dev4press.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: GD i18n 2.5; www.dev4press.com\n"
+
+#: templates/quantum/code/functions.php:149
+msgid "%s topic"
+msgid_plural "%s topics"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/quantum/code/functions.php:156
+msgid "(+%s hidden)"
+msgid_plural "(+%s hidden)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/quantum/code/functions.php:165
+msgid "%s reply"
+msgid_plural "%s replies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/Plugin.php:24
+msgid "Install"
+msgstr ""
+
+#: core/admin/Plugin.php:27
+msgid "Before you continue, make sure plugin installation was successful."
+msgstr ""
+
+#: core/admin/Plugin.php:31
+#: templates/quantum/bbquantum/form-topic-tag.php:52
+msgid "Update"
+msgstr ""
+
+#: core/admin/Plugin.php:34
+msgid "Before you continue, make sure plugin was successfully updated."
+msgstr ""
+
+#: core/admin/Plugin.php:41
+msgid "Getting Started"
+msgstr ""
+
+#: core/admin/Plugin.php:46
+#: templates/quantum/bbquantum/user-profile.php:18
+msgid "About"
+msgstr ""
+
+#: core/basic/Plugin.php:47
+msgid "Default Gray"
+msgstr ""
+
+#: core/basic/Plugin.php:52
+msgid "Classic Gray"
+msgstr ""
+
+#: core/basic/Plugin.php:57
+msgid "Light Gray"
+msgstr ""
+
+#: core/basic/Plugin.php:65
+msgid "Default Gray with Red"
+msgstr ""
+
+#: core/basic/Plugin.php:70
+msgid "Default Gray with Green"
+msgstr ""
+
+#: core/basic/Plugin.php:75
+msgid "Default Gray with Orange"
+msgstr ""
+
+#: core/basic/Plugin.php:80
+msgid "Default Gray with Blue"
+msgstr ""
+
+#: core/basic/Plugin.php:85
+msgid "Default Gray with Black"
+msgstr ""
+
+#: core/basic/Plugin.php:90
+msgid "Classic Gray with Red"
+msgstr ""
+
+#: core/basic/Plugin.php:95
+msgid "Classic Gray with Green"
+msgstr ""
+
+#: core/basic/Plugin.php:100
+msgid "Classic Gray with Orange"
+msgstr ""
+
+#: core/basic/Plugin.php:105
+msgid "Classic Gray with Blue"
+msgstr ""
+
+#: core/basic/Plugin.php:110
+msgid "Classic Gray with Black"
+msgstr ""
+
+#: core/basic/Plugin.php:115
+msgid "Light Gray with Red"
+msgstr ""
+
+#: core/basic/Plugin.php:120
+msgid "Light Gray with Green"
+msgstr ""
+
+#: core/basic/Plugin.php:125
+msgid "Light Gray with Orange"
+msgstr ""
+
+#: core/basic/Plugin.php:130
+msgid "Light Gray with Blue"
+msgstr ""
+
+#: core/basic/Plugin.php:135
+msgid "Light Gray with Black"
+msgstr ""
+
+#: core/customizer/Manager.php:167
+msgid "bbPress Quantum"
+msgstr ""
+
+#: core/customizer/Manager.php:175
+#: core/customizer/Manager.php:772
+msgid "Style"
+msgstr ""
+
+#: core/customizer/Manager.php:182
+msgid "User Profile"
+msgstr ""
+
+#: core/customizer/Manager.php:189
+#: templates/quantum/bbquantum/content-statistics.php:13
+msgid "Forums"
+msgstr ""
+
+#: core/customizer/Manager.php:196
+#: templates/quantum/bbquantum/content-statistics.php:18
+#: templates/quantum/bbquantum/loop-forums.php:11
+#: templates/quantum/bbquantum/loop-forums.php:12
+#: templates/quantum/code/functions.php:34
+msgid "Topics"
+msgstr ""
+
+#: core/customizer/Manager.php:203
+msgid "Popups"
+msgstr ""
+
+#: core/customizer/Manager.php:210
+msgid "Settings"
+msgstr ""
+
+#: core/customizer/Manager.php:217
+msgid "Advanced"
+msgstr ""
+
+#: core/customizer/Manager.php:224
+msgid "Additional CSS"
+msgstr ""
+
+#: core/customizer/Manager.php:232
+msgid "More bbPress Plugins"
+msgstr ""
+
+#: core/customizer/Manager.php:773
+#: core/customizer/Manager.php:781
+msgid "Choose which colour scheme styles to load."
+msgstr ""
+
+#: core/customizer/Manager.php:780
+msgid "Color Scheme"
+msgstr ""
+
+#: core/customizer/Manager.php:788
+#: core/customizer/Manager.php:1452
+msgid "Custom Colour Styling"
+msgstr ""
+
+#: core/customizer/Manager.php:789
+msgid "Select basic styling and custom colors to use."
+msgstr ""
+
+#: core/customizer/Manager.php:794
+msgid "Basic Colour Theme"
+msgstr ""
+
+#: core/customizer/Manager.php:801
+msgid "Text Color"
+msgstr ""
+
+#: core/customizer/Manager.php:806
+msgid "Link Color"
+msgstr ""
+
+#: core/customizer/Manager.php:811
+msgid "Main Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:816
+msgid "Common Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:821
+msgid "Custom Typography"
+msgstr ""
+
+#: core/customizer/Manager.php:822
+msgid "Set various typography related settings."
+msgstr ""
+
+#: core/customizer/Manager.php:827
+msgid "Font Size"
+msgstr ""
+
+#: core/customizer/Manager.php:837
+msgid "Line Height"
+msgstr ""
+
+#: core/customizer/Manager.php:847
+msgid "Row background colors"
+msgstr ""
+
+#: core/customizer/Manager.php:848
+msgid "Colors for sticky, spam, pending and trash topics."
+msgstr ""
+
+#: core/customizer/Manager.php:853
+msgid "Sticky Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:858
+msgid "Super Sticky Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:863
+msgid "Spam Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:868
+msgid "Trash Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:873
+msgid "Pending Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:878
+msgid "Additional Settings"
+msgstr ""
+
+#: core/customizer/Manager.php:879
+msgid "Set additional settings for the theme."
+msgstr ""
+
+#: core/customizer/Manager.php:884
+msgid "Border Radius"
+msgstr ""
+
+#: core/customizer/Manager.php:899
+msgid "Additional Colors Override"
+msgstr ""
+
+#: core/customizer/Manager.php:900
+#: core/customizer/Manager.php:1422
+msgid "Set additional colors used for various theme elements."
+msgstr ""
+
+#: core/customizer/Manager.php:905
+msgid "Elements Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:915
+#: core/customizer/Manager.php:955
+msgid "Border Color"
+msgstr ""
+
+#: core/customizer/Manager.php:925
+#: core/customizer/Manager.php:965
+msgid "Elements Text Color"
+msgstr ""
+
+#: core/customizer/Manager.php:935
+#: core/customizer/Manager.php:975
+msgid "Elements Link Color"
+msgstr ""
+
+#: core/customizer/Manager.php:945
+#: core/customizer/Manager.php:985
+#: core/customizer/Manager.php:1045
+msgid "Button Text Color"
+msgstr ""
+
+#: core/customizer/Manager.php:995
+msgid "Form Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1005
+msgid "Form Border Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1015
+msgid "Form Text Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1025
+msgid "Form Link Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1035
+msgid "Form Search Border Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1055
+msgid "List Header Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1065
+msgid "List Header Text Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1075
+msgid "List Row Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1085
+msgid "List Row Text Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1095
+msgid "List Row Link Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1105
+msgid "Post Author Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1115
+msgid "Post Author Text Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1125
+msgid "Post Author Link Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1135
+msgid "Action Banner Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1145
+msgid "Action Banner Text Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1155
+msgid "Action Banner Link Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1165
+msgid "Breadcrumbs Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1175
+msgid "Breadcrumbs Text Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1185
+msgid "Breadcrumbs Link Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1195
+msgid "Topic Tag Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1205
+msgid "Topic Tag Border Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1215
+msgid "Topic Tag Link Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1225
+msgid "Pager Numbers Background Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1235
+msgid "Pager Numbers Link Color"
+msgstr ""
+
+#: core/customizer/Manager.php:1245
+msgid "Profile Tweaks"
+msgstr ""
+
+#: core/customizer/Manager.php:1246
+msgid "Additional settings for configuring the display of user profile pages."
+msgstr ""
+
+#: core/customizer/Manager.php:1252
+msgid "Show registered information"
+msgstr ""
+
+#: core/customizer/Manager.php:1253
+msgid "Show when the user account was registered."
+msgstr ""
+
+#: core/customizer/Manager.php:1259
+msgid "Everyone can see Favorites page"
+msgstr ""
+
+#: core/customizer/Manager.php:1260
+msgid "Favorites tab is public by default, with this option you can make it private."
+msgstr ""
+
+#: core/customizer/Manager.php:1266
+msgid "Forums list Last Column"
+msgstr ""
+
+#: core/customizer/Manager.php:1267
+msgid "This option controls the content of the last column of the forums lists."
+msgstr ""
+
+#: core/customizer/Manager.php:1274
+msgid "Forum Tweaks"
+msgstr ""
+
+#: core/customizer/Manager.php:1275
+msgid "Additional settings for configuring the display of forums pages."
+msgstr ""
+
+#: core/customizer/Manager.php:1280
+msgid "List subforums in Forums lists"
+msgstr ""
+
+#: core/customizer/Manager.php:1281
+msgid "If the forum has subforums, the subforums will be listed in forum index lists."
+msgstr ""
+
+#: core/customizer/Manager.php:1287
+msgid "Show forum description"
+msgstr ""
+
+#: core/customizer/Manager.php:1288
+msgid "If the forum has a description set, it will be displayed on the top of the forum single page."
+msgstr ""
+
+#: core/customizer/Manager.php:1294
+msgid "Show New Topic Action"
+msgstr ""
+
+#: core/customizer/Manager.php:1295
+msgid "Show button for New Topic in each forum inside the top action bar, if the user can post new topic in the current forum."
+msgstr ""
+
+#: core/customizer/Manager.php:1301
+msgid "Show New Topic in a popup"
+msgstr ""
+
+#: core/customizer/Manager.php:1302
+msgid "New topic form will be hidden, and displayed as a popup."
+msgstr ""
+
+#: core/customizer/Manager.php:1308
+msgid "Topic Tweaks"
+msgstr ""
+
+#: core/customizer/Manager.php:1309
+msgid "Additional settings for configuring the display of topics pages."
+msgstr ""
+
+#: core/customizer/Manager.php:1315
+msgid "Show actions block"
+msgstr ""
+
+#: core/customizer/Manager.php:1316
+msgid "Show actions block similar to forums on the single topic page above the topics and replies."
+msgstr ""
+
+#: core/customizer/Manager.php:1322
+msgid "Show New Reply action"
+msgstr ""
+
+#: core/customizer/Manager.php:1323
+msgid "Show button for New Reply in each topic inside the top action bar or topic heading, if the user can post new reply for the current topic."
+msgstr ""
+
+#: core/customizer/Manager.php:1330
+msgid "Show New Reply in a popup"
+msgstr ""
+
+#: core/customizer/Manager.php:1331
+msgid "New reply form will be hidden, and displayed as a popup."
+msgstr ""
+
+#: core/customizer/Manager.php:1338
+msgid "Show lead topic"
+msgstr ""
+
+#: core/customizer/Manager.php:1339
+msgid "Show main topic separated from the replies on the single topic page."
+msgstr ""
+
+#: core/customizer/Manager.php:1345
+msgid "Posts Controls"
+msgstr ""
+
+#: core/customizer/Manager.php:1346
+msgid "This option affects the way Topics and Replies controls inside the single topic threads are displayed."
+msgstr ""
+
+#: core/customizer/Manager.php:1353
+msgid "More Tweaks"
+msgstr ""
+
+#: core/customizer/Manager.php:1354
+msgid "Additional tweaks for various forum features."
+msgstr ""
+
+#: core/customizer/Manager.php:1359
+msgid "Show breadcrumbs"
+msgstr ""
+
+#: core/customizer/Manager.php:1360
+msgid "Breadcrumbs are displayed on each forum page by default, with this option you can disable them."
+msgstr ""
+
+#: core/customizer/Manager.php:1366
+msgid "Show form on search page"
+msgstr ""
+
+#: core/customizer/Manager.php:1367
+msgid "Always show search form on the search results page."
+msgstr ""
+
+#: core/customizer/Manager.php:1373
+msgid "Popups Tweaks"
+msgstr ""
+
+#: core/customizer/Manager.php:1374
+msgid "Additional settings for configuring the display of topic and reply popups."
+msgstr ""
+
+#: core/customizer/Manager.php:1380
+msgid "Show New Topic Banner"
+msgstr ""
+
+#: core/customizer/Manager.php:1381
+msgid "If new topic popup is enabled, this option will add simple banner control with the New Topic button to open the popup."
+msgstr ""
+
+#: core/customizer/Manager.php:1387
+msgid "Show New Reply Banner"
+msgstr ""
+
+#: core/customizer/Manager.php:1388
+msgid "If new reply popup is enabled, this option will add simple banner control with the New Reply button to open the popup."
+msgstr ""
+
+#: core/customizer/Manager.php:1394
+msgid "Font Icons"
+msgstr ""
+
+#: core/customizer/Manager.php:1395
+msgid "Control over loading of font icons."
+msgstr ""
+
+#: core/customizer/Manager.php:1401
+msgid "Load WOFF/WOFF2 Embedded CSS"
+msgstr ""
+
+#: core/customizer/Manager.php:1402
+msgid "Because of the small font size, it is beneficial to load embedded version of the font CSS where the WOFF and WOFF2 font variants are inside the CSS, and not required to load as external files."
+msgstr ""
+
+#: core/customizer/Manager.php:1408
+msgid "JavaScript"
+msgstr ""
+
+#: core/customizer/Manager.php:1409
+msgid "Control over loading of JavaScript."
+msgstr ""
+
+#: core/customizer/Manager.php:1414
+msgid "Force loading of JavaScript files"
+msgstr ""
+
+#: core/customizer/Manager.php:1415
+msgid "If you use shortcodes to embed forums or topics into static pages, it is recommended to force loading of JavaScript files because the bbPress pages can't be properly detected."
+msgstr ""
+
+#: core/customizer/Manager.php:1421
+msgid "CSS Code"
+msgstr ""
+
+#: core/customizer/Manager.php:1437
+#: templates/quantum/bbquantum/loop-forums.php:20
+#: templates/quantum/bbquantum/loop-single-forum.php:54
+msgid "Freshness"
+msgstr ""
+
+#: core/customizer/Manager.php:1438
+#: templates/quantum/bbquantum/loop-forums.php:22
+#: templates/quantum/bbquantum/loop-single-forum.php:77
+msgid "Last Activity"
+msgstr ""
+
+#: core/customizer/Manager.php:1444
+msgid "Dropdown"
+msgstr ""
+
+#: core/customizer/Manager.php:1445
+msgid "Links"
+msgstr ""
+
+#: core/customizer/Manager.php:1451
+msgid "Predefined Colour Scheme"
+msgstr ""
+
+#: core/customizer/Manager.php:168
+msgid "Control settings for the Quantum theme for bbPress."
+msgstr ""
+
+#: core/customizer/Manager.php:177
+msgid "Control styling for GD Quantum Theme for bbPress. You can use predefined colour scheme, or you can build your own by changing basic colors, typography and override additional colors."
+msgstr ""
+
+#: core/customizer/Manager.php:184
+msgid "Control over the user profile pages for GD Quantum Theme for bbPress."
+msgstr ""
+
+#: core/customizer/Manager.php:191
+msgid "Control over the forums pages for GD Quantum Theme for bbPress."
+msgstr ""
+
+#: core/customizer/Manager.php:198
+msgid "Control over the topics pages for GD Quantum Theme for bbPress."
+msgstr ""
+
+#: core/customizer/Manager.php:205
+msgid "Control settings for popup dialogs for GD Quantum Theme for bbPress."
+msgstr ""
+
+#: core/customizer/Manager.php:212
+msgid "Control general settings for GD Quantum Theme for bbPress."
+msgstr ""
+
+#: core/customizer/Manager.php:219
+msgid "Control advanced settings for GD Quantum Theme for bbPress."
+msgstr ""
+
+#: core/customizer/Manager.php:226
+msgid "Add CSS styling for some additional customizations. This CSS will be added after the main plugin CSS styling. And, it will be loaded only on the bbPress related content pages."
+msgstr ""
+
+#: core/theme/Ajax.php:16
+msgid "Favourites are not active."
+msgstr ""
+
+#: core/theme/Ajax.php:20
+msgid "Please login to add to favourites."
+msgstr ""
+
+#: core/theme/Ajax.php:28
+#: core/theme/Ajax.php:74
+msgid "You do not have permission to do this."
+msgstr ""
+
+#: core/theme/Ajax.php:36
+msgid "Favorite failed."
+msgstr ""
+
+#: core/theme/Ajax.php:40
+#: core/theme/Ajax.php:86
+msgid "Request is not valid."
+msgstr ""
+
+#: core/theme/Ajax.php:48
+#: core/theme/Ajax.php:94
+msgid "The request was unsuccessful. Please try again."
+msgstr ""
+
+#: core/theme/Ajax.php:62
+msgid "Subscriptions are not active."
+msgstr ""
+
+#: core/theme/Ajax.php:66
+msgid "Please login to subscribe."
+msgstr ""
+
+#: core/theme/Ajax.php:82
+msgid "Subscription failed."
+msgstr ""
+
+#: core/theme/Core.php:232
+msgid "Options"
+msgstr ""
+
+#: core/theme/Core.php:58
+#: core/theme/Core.php:60
+msgid "Previous"
+msgstr ""
+
+#: core/theme/Core.php:63
+#: core/theme/Core.php:65
+msgid "Next"
+msgstr ""
+
+#: core/theme/Core.php:102
+#: core/theme/Core.php:102
+msgid "Subscribe"
+msgstr ""
+
+#: core/theme/Core.php:103
+#: core/theme/Core.php:103
+#: templates/quantum/bbquantum/extra-forum-user-controls.php:11
+#: templates/quantum/bbquantum/extra-topic-user-controls.php:29
+msgid "Unsubscribe"
+msgstr ""
+
+#: core/theme/Core.php:113
+#: core/theme/Core.php:113
+msgid "Favorite"
+msgstr ""
+
+#: core/theme/Core.php:114
+#: core/theme/Core.php:114
+msgid "Unfavorite"
+msgstr ""
+
+#: core/theme/Core.php:158
+msgid "Profile"
+msgstr ""
+
+#: core/theme/Core.php:165
+msgid "Topics Started"
+msgstr ""
+
+#: core/theme/Core.php:172
+msgid "Replies Created"
+msgstr ""
+
+#: core/theme/Core.php:182
+msgid "Engagements"
+msgstr ""
+
+#: core/theme/Core.php:195
+msgid "Favorites"
+msgstr ""
+
+#: core/theme/Core.php:207
+msgid "Subscriptions"
+msgstr ""
+
+#: core/theme/Core.php:216
+msgid "Edit"
+msgstr ""
+
+#: core/theme/Quantum.php:313
+msgid "Something went wrong. Refresh your browser and try again."
+msgstr ""
+
+#: forms/content-about-changelog.php:1
+#: forms/content-about-changelog.php:142
+#: forms/content-about-minor.php:3
+#: forms/content-about-minor.php:7
+#: forms/content-about-minor.php:11
+#: forms/content-about-minor.php:15
+#: forms/content-about-minor.php:19
+#: forms/content-about-minor.php:23
+#: forms/content-about-minor.php:27
+#: forms/content-about-minor.php:31
+msgid "Version"
+msgstr ""
+
+#: forms/content-about-minor.php:1
+msgid "Maintenance and Security Releases"
+msgstr ""
+
+#: forms/content-about-minor.php:35
+msgid "For more information, see <a href='%s'>the changelog</a>."
+msgstr ""
+
+#: forms/content-dashboard.php:2
+msgid "Theme Activation Control"
+msgstr ""
+
+#: forms/content-dashboard.php:5
+msgid "Quantum theme for bbPress is currently active and in use. If you want to disable it, and switch back to the bbPress Default, click the button below."
+msgstr ""
+
+#: forms/content-dashboard.php:6
+msgid "Deactivate Quantum Theme"
+msgstr ""
+
+#: forms/content-dashboard.php:8
+msgid "To activate Quantum Theme, you need to configure bbPress to use bbPress Quantum instead of the bbPress Default. You can do that from the bbPress plugin settings panel, or you can simply click the button below."
+msgstr ""
+
+#: forms/content-dashboard.php:9
+msgid "Activate Quantum Theme"
+msgstr ""
+
+#: forms/content-dashboard.php:15
+msgid "Custom Styles Transient Cache"
+msgstr ""
+
+#: forms/content-dashboard.php:17
+msgid "If you create custom styling for Quantum using the Customizer, the plugin creates transient cache entries with the generated CSS."
+msgstr ""
+
+#: forms/content-dashboard.php:19
+msgid "Delete all Cached Styles"
+msgstr ""
+
+#: forms/content-dashboard.php:18
+msgid "Currently, there are %s transient rows in the database."
+msgstr ""
+
+#: forms/content-install.php:11
+#: forms/content-update.php:19
+msgid "All Done"
+msgstr ""
+
+#: forms/content-install.php:14
+msgid "Installation completed."
+msgstr ""
+
+#: forms/content-install.php:19
+#: forms/content-update.php:27
+msgid "Click here to continue"
+msgstr ""
+
+#: forms/content-update.php:4
+msgid "Transient cached styles"
+msgstr ""
+
+#: forms/content-update.php:7
+msgid "Cleared"
+msgstr ""
+
+#: forms/content-update.php:22
+msgid "Update completed."
+msgstr ""
+
+#: templates/quantum/bbquantum/alert-topic-lock.php:11
+msgid "Leave"
+msgstr ""
+
+#: templates/quantum/bbquantum/alert-topic-lock.php:12
+msgid "Stay"
+msgstr ""
+
+#: templates/quantum/bbquantum/content-single-reply.php:19
+#: templates/quantum/bbquantum/content-single-topic-lead.php:4
+#: templates/quantum/bbquantum/loop-replies.php:9
+#: templates/quantum/bbquantum/loop-search.php:6
+msgid "Author"
+msgstr ""
+
+#: templates/quantum/bbquantum/content-single-reply.php:22
+msgid "Reply"
+msgstr ""
+
+#: templates/quantum/bbquantum/content-single-topic-lead.php:7
+#: templates/quantum/bbquantum/loop-topics.php:6
+msgid "Topic"
+msgstr ""
+
+#: templates/quantum/bbquantum/content-single-topic.php:22
+#: templates/quantum/bbquantum/form-reply.php:95
+msgid "Tags:"
+msgstr ""
+
+#: templates/quantum/bbquantum/content-statistics.php:8
+msgid "Registered Users"
+msgstr ""
+
+#: templates/quantum/bbquantum/content-statistics.php:23
+#: templates/quantum/bbquantum/loop-forums.php:16
+#: templates/quantum/bbquantum/loop-forums.php:17
+#: templates/quantum/bbquantum/loop-replies.php:12
+#: templates/quantum/bbquantum/loop-topics.php:15
+#: templates/quantum/bbquantum/loop-topics.php:16
+#: templates/quantum/code/functions.php:34
+#: templates/quantum/code/functions.php:49
+msgid "Replies"
+msgstr ""
+
+#: templates/quantum/bbquantum/content-statistics.php:28
+msgid "Topic Tags"
+msgstr ""
+
+#: templates/quantum/bbquantum/content-statistics.php:35
+msgid "Empty Topic Tags"
+msgstr ""
+
+#: templates/quantum/bbquantum/content-statistics.php:44
+msgid "Hidden Topics"
+msgstr ""
+
+#: templates/quantum/bbquantum/content-statistics.php:55
+msgid "Hidden Replies"
+msgstr ""
+
+#: templates/quantum/bbquantum/extra-topic-user-controls.php:13
+msgid "Remove from Favorites"
+msgstr ""
+
+#: templates/quantum/bbquantum/feedback-logged-in.php:4
+msgid "You are already logged in."
+msgstr ""
+
+#: templates/quantum/bbquantum/feedback-no-access.php:4
+msgid "Private"
+msgstr ""
+
+#: templates/quantum/bbquantum/feedback-no-access.php:8
+msgid "You do not have permission to view this forum."
+msgstr ""
+
+#: templates/quantum/bbquantum/feedback-no-forums.php:5
+msgid "No forums were found here."
+msgstr ""
+
+#: templates/quantum/bbquantum/feedback-no-replies.php:5
+msgid "No replies were found here."
+msgstr ""
+
+#: templates/quantum/bbquantum/feedback-no-search.php:5
+msgid "Sorry, there are no results that match your search."
+msgstr ""
+
+#: templates/quantum/bbquantum/feedback-no-topics.php:5
+msgid "No topics were found here."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-anonymous.php:9
+msgid "Author Information"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-anonymous.php:9
+msgid "Your information:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-anonymous.php:14
+msgid "Name (required):"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-anonymous.php:19
+msgid "Mail (will not be published) (required):"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-anonymous.php:24
+msgid "Website:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-protected.php:4
+msgid "Protected"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply-move.php:32
+msgid "You can either make this reply a new topic with a new title, or merge it into an existing topic."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply-move.php:38
+msgid "If you choose an existing topic, replies will be ordered by the time and date they were created."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply-move.php:43
+msgid "Move Method"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply-move.php:64
+#: templates/quantum/bbquantum/form-topic-split.php:52
+msgid "Use an existing topic in this forum:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply-move.php:85
+#: templates/quantum/bbquantum/form-topic-merge.php:100
+#: templates/quantum/bbquantum/form-topic-split.php:108
+msgid "This process cannot be undone."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply-move.php:91
+#: templates/quantum/bbquantum/form-reply.php:190
+#: templates/quantum/bbquantum/form-topic-merge.php:106
+#: templates/quantum/bbquantum/form-topic-split.php:114
+#: templates/quantum/bbquantum/form-topic.php:216
+msgid "Submit"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply-move.php:105
+msgid "You do not have permission to edit this reply."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply-move.php:106
+msgid "You cannot edit this reply."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply-move.php:26
+msgid "Move reply '%s'"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply-move.php:48
+#: templates/quantum/bbquantum/form-topic-split.php:36
+msgid "New topic in %s titled:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply-move.php:50
+msgid "Moved: %s"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply-search.php:7
+#: templates/quantum/bbquantum/form-search.php:4
+#: templates/quantum/bbquantum/form-topic-search.php:7
+msgid "Search for:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply-search.php:12
+#: templates/quantum/bbquantum/form-search.php:9
+#: templates/quantum/bbquantum/form-topic-search.php:12
+msgid "Search"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:43
+msgid "This topic is marked as closed to new replies, however, your posting capabilities still allow you to reply."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:53
+msgid "This forum is closed to new content, however, your posting capabilities still allow you to post."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:63
+msgid "Your account can post unrestricted HTML content."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:84
+msgid "You may use these <abbr title='HyperText Markup Language'>HTML</abbr> tags and attributes:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:115
+#: templates/quantum/bbquantum/form-topic.php:174
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:119
+#: templates/quantum/bbquantum/form-topic.php:178
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:137
+msgid "Reply To:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:148
+msgid "Reply Status:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:165
+#: templates/quantum/bbquantum/form-topic.php:195
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:243
+msgid "You cannot reply to this topic."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:244
+msgid "You must be logged in to reply to this topic."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:35
+msgid "Reply To: %s"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:35
+msgid "Reply #%1$s in %2$s"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:169
+#: templates/quantum/bbquantum/form-topic.php:199
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:222
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-reply.php:232
+#: templates/quantum/bbquantum/form-topic.php:248
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-merge.php:20
+msgid "Select the topic to merge this one into. The destination topic will remain the lead topic, and this one will change into a reply."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-merge.php:21
+msgid "To keep this topic as the lead, go to the other topic and use the merge tool from there instead."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-merge.php:27
+msgid "Replies to both topics are merged chronologically, ordered by the time and date they were published. Topics may be updated to a 1 second difference to maintain chronological order based on the merge direction."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-merge.php:32
+msgid "Destination"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-merge.php:41
+msgid "Merge with this topic:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-merge.php:57
+msgid "There are no other topics in this forum to merge with."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-merge.php:65
+#: templates/quantum/bbquantum/form-topic-split.php:73
+msgid "Topic Extras"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-merge.php:74
+msgid "Merge topic subscribers"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-merge.php:82
+msgid "Merge topic favourites"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-merge.php:90
+msgid "Merge topic tags"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-merge.php:120
+#: templates/quantum/bbquantum/form-topic-split.php:128
+msgid "You do not have permission to edit this topic."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-merge.php:121
+#: templates/quantum/bbquantum/form-topic-split.php:129
+msgid "You cannot edit this topic."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-merge.php:14
+msgid "Merge topic '%s'"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-split.php:20
+msgid "When you split a topic, you are slicing it in half starting with the reply you just selected. Choose to use that reply as a new topic with a new title, or merge those replies into an existing topic."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-split.php:26
+msgid "If you use the existing topic option, replies within both topics will be merged chronologically. The order of the merged replies is based on the time and date they were posted."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-split.php:31
+msgid "Split Method"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-split.php:82
+msgid "Copy subscribers to the new topic"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-split.php:90
+msgid "Copy favourites to the new topic"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-split.php:98
+msgid "Copy topic tags to the new topic"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-split.php:14
+msgid "Split topic '%s'"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-split.php:38
+msgid "Split: %s"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:83
+#: templates/quantum/bbquantum/form-topic-tag.php:66
+msgid "Merge"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:116
+#: templates/quantum/bbquantum/form-topic-tag.php:98
+msgid "Delete"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:14
+msgid "Rename"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:18
+msgid "Leave the slug empty to have one automatically generated."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:24
+msgid "Changing the slug affects its permalink. Any links to the old slug will stop working."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:31
+msgid "Name:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:37
+msgid "Slug:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:43
+msgid "Description:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:70
+msgid "Merging tags cannot be undone."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:77
+msgid "Existing tag:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:102
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:107
+msgid "Deleting a tag cannot be undone."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:108
+msgid "Any links to this tag will no longer function."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:10
+msgid "Manage Tag: '%s'"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:83
+msgid "Are you sure you want to merge the '%s' tag into the tag you specified?"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic-tag.php:116
+msgid "Are you sure you want to delete the '%s' tag? This is permanent and cannot be undone."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic.php:44
+msgid "Create New Topic"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic.php:56
+msgid "This forum is marked as closed to new topics, however your posting capabilities still allow you to create a topic."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic.php:66
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic.php:108
+msgid "Topic Tags:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic.php:122
+#: templates/quantum/bbquantum/loop-search-forum.php:8
+msgid "Forum:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic.php:142
+msgid "Topic Type:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic.php:154
+msgid "Topic Status:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic.php:259
+msgid "You cannot create new topics."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic.php:260
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic.php:40
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic.php:43
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic.php:81
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic.php:97
+msgid "You may use these %s tags and attributes:"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-topic.php:126
+msgid "&mdash; No forum &mdash;"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:7
+msgid "Name"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:12
+msgid "First Name"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:18
+msgid "Last Name"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:24
+msgid "Nickname"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:30
+msgid "Display Name"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:41
+msgid "Contact Info"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:46
+msgid "Website"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:67
+msgid "About Yourself"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:68
+msgid "About the user"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:74
+msgid "Biographical Info"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:84
+msgid "Account"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:89
+#: templates/quantum/bbquantum/form-user-login.php:7
+#: templates/quantum/bbquantum/form-user-register.php:16
+msgid "Username"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:96
+#: templates/quantum/bbquantum/form-user-register.php:22
+msgid "Email"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:112
+msgid "User Role"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:119
+msgid "Network Role"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:123
+msgid "Grant this user super admin privileges for the Network."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:146
+msgid "Update Profile"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-edit.php:147
+msgid "Update User"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-language.php:3
+msgid "Language"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-login.php:4
+#: templates/quantum/bbquantum/form-user-login.php:29
+msgid "Log In"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-login.php:13
+#: templates/quantum/bbquantum/form-user-passwords.php:5
+msgid "Password"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-login.php:21
+msgid "Keep me signed in"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-lost-pass.php:7
+msgid "Lost Password"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-lost-pass.php:11
+msgid "Username or Email"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-lost-pass.php:22
+msgid "Reset My Password"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-passwords.php:19
+msgid "Hide password"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-passwords.php:22
+msgid "Cancel password change"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-passwords.php:8
+msgid "Generate Password"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-passwords.php:20
+msgid "Hide"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-passwords.php:23
+msgid "Cancel"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-passwords.php:32
+msgid "Confirm"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-passwords.php:37
+msgid "Repeat New Password"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-passwords.php:39
+msgid "Type your new password again."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-register.php:4
+msgid "Create an Account"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-register.php:10
+msgid "Your username must be unique, and cannot be changed later."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-register.php:11
+msgid "We use your email address to email you a secure password and verify your account."
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-register.php:32
+msgid "Register"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-roles.php:3
+msgid "Blog Role"
+msgstr ""
+
+#: templates/quantum/bbquantum/form-user-roles.php:8
+msgid "Forum Role"
+msgstr ""
+
+#: templates/quantum/bbquantum/loop-forums.php:7
+msgid "Forum"
+msgstr ""
+
+#: templates/quantum/bbquantum/loop-replies.php:12
+msgid "Posts"
+msgstr ""
+
+#: templates/quantum/bbquantum/loop-search-reply.php:5
+msgid "In reply to: "
+msgstr ""
+
+#: templates/quantum/bbquantum/loop-search-topic.php:5
+msgid "Topic: "
+msgstr ""
+
+#: templates/quantum/bbquantum/loop-search.php:8
+msgid "Search Results"
+msgstr ""
+
+#: templates/quantum/bbquantum/loop-single-topic.php:53
+#: templates/quantum/bbquantum/loop-topics.php:18
+msgid "Last Post"
+msgstr ""
+
+#: templates/quantum/bbquantum/loop-single-topic.php:21
+msgid "Started by: %1$s"
+msgstr ""
+
+#: templates/quantum/bbquantum/loop-single-topic.php:29
+msgid "in: <a href='%s'>%s</a>"
+msgstr ""
+
+#: templates/quantum/bbquantum/loop-topics.php:10
+#: templates/quantum/bbquantum/loop-topics.php:11
+#: templates/quantum/code/functions.php:49
+msgid "Voices"
+msgstr ""
+
+#: templates/quantum/bbquantum/user-details.php:16
+msgid "Forum Role: %s"
+msgstr ""
+
+#: templates/quantum/bbquantum/user-details.php:18
+msgid "Registered: %s"
+msgstr ""
+
+#: templates/quantum/bbquantum/user-profile.php:6
+msgid "Activity"
+msgstr ""
+
+#: templates/quantum/bbquantum/user-profile.php:11
+msgid "Basic Activity"
+msgstr ""
+
+#: templates/quantum/bbquantum/user-profile.php:7
+msgid "Last Activity: %s"
+msgstr ""
+
+#: templates/quantum/bbquantum/user-profile.php:12
+msgid "Topics Started: %s"
+msgstr ""
+
+#: templates/quantum/bbquantum/user-profile.php:13
+msgid "Replies Created: %s"
+msgstr ""
+
+#: templates/quantum/bbquantum/user-subscriptions.php:12
+msgid "Subscribed Forums"
+msgstr ""
+
+#: templates/quantum/bbquantum/user-subscriptions.php:22
+msgid "You are not currently subscribed to any forums."
+msgstr ""
+
+#: templates/quantum/bbquantum/user-subscriptions.php:23
+msgid "This user is not currently subscribed to any forums."
+msgstr ""
+
+#: templates/quantum/bbquantum/user-subscriptions.php:30
+msgid "Subscribed Topics"
+msgstr ""
+
+#: templates/quantum/code/functions.php:110
+msgctxt "date at time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: templates/quantum/code/functions.php:13
+#: templates/quantum/code/functions.php:13
+msgid "New Topic"
+msgstr ""
+
+#: templates/quantum/code/functions.php:21
+#: templates/quantum/code/functions.php:21
+msgid "New Reply"
+msgstr ""
+
+#: templates/quantum/code/functions.php:170
+msgid "Forums have %s."
+msgstr ""
+
+#: templates/quantum/code/functions.php:172
+msgid "Forums have %s and %s."
+msgstr ""
+
+#: templates/quantum/code/functions.php:175
+msgid "There are not topics in the forums."
+msgstr ""
+
+#: templates/quantum/code/functions.php:89
+msgid "No Topics"
+msgstr ""
+
+#: templates/quantum/extras/page-forum-statistics.php:33
+msgid "Popular Topics"
+msgstr ""
+
+#: templates/quantum/extras/page-forum-statistics.php:21
+msgid "Here are the statistics and popular topics of our forums."
+msgstr ""
+
+#: templates/quantum/extras/page-topic-tags.php:21
+msgid "This is a collection of tags that are currently popular on our forums."
+msgstr ""
+
+#: templates/quantum/extras/taxonomy-topic-tag-edit.php:16
+#: templates/quantum/extras/taxonomy-topic-tag.php:16
+msgid "Topic Tag: %s"
+msgstr ""
+

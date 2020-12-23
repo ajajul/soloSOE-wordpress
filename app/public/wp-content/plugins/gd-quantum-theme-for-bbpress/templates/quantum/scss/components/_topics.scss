@@ -1,0 +1,88 @@
+#{$base} {
+    .bbp-no-topic {
+        margin-top: 15px;
+    }
+
+    .bbp-topic-tags {
+        text-align: right;
+        margin: 15px 0;
+        line-height: $line-height + 2px;
+
+        p {
+            margin: 0;
+
+            a {
+                background: $color-topic-tag-background;
+                border: 1px solid $color-topic-tag-border;
+                color: $color-topic-tag-link;
+                padding: 0 5px;
+                border-radius: 3px;
+
+                white-space: nowrap;
+                line-height: $line-height - 2px;
+
+                @include ltr {
+                    margin: 0 5px 0 0;
+                }
+
+                @include rtl {
+                    margin: 0 0 0 5px;
+                }
+            }
+        }
+    }
+
+    .bbp-post-user-controls {
+        font-size: $font-size;
+        font-weight: normal;
+
+        @include ltr {
+            float: right;
+        }
+
+        @include rtl {
+            float: left;
+        }
+
+        > span {
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+            }
+
+            &#start-new-reply {
+                font-weight: bold;
+            }
+
+            &#favorite-toggle,
+            &#subscription-toggle {
+                @include ltr {
+                    margin-right: 10px;
+                }
+
+                @include rtl {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    .bbp-the-list {
+        &.bbp-topics {
+            .bbp-items-list {
+                .type-topic {
+                    &.status-closed {
+                        .bbp-item.bbp-row {
+                            color: lighten($color-text, 40%);
+
+                            a {
+                                color: desaturate(lighten($color-link, 40%), 90%);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

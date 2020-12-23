@@ -1,0 +1,87 @@
+#{$base} {
+    .bbp-topic-info {
+        .bbp-topic-pagination {
+            .page-numbers {
+                background: $color-pager-numbers-background;
+                display: inline-block;
+                line-height: $line-height;
+                padding: 0 6px;
+
+                @include ltr {
+                    margin: 0 0 0 4px;
+                }
+
+                @include rtl {
+                    margin: 0 4px;
+                }
+            }
+        }
+    }
+
+    .bbp-pagination {
+        line-height: $line-height + 4px;
+        width: 100%;
+        margin: 0;
+        overflow: auto;
+
+        &.bbp-topic-pagination {
+            @include ltr {
+                margin: 0 0 20px;
+            }
+
+            @include rtl {
+                margin: 0 0 20px;
+            }
+        }
+
+        .bbp-pagination-count {
+            @include ltr {
+                float: left;
+            }
+
+            @include rtl {
+                float: right;
+            }
+        }
+
+        .bbp-pagination-links {
+            @include ltr {
+                float: right;
+            }
+
+            @include rtl {
+                float: left;
+            }
+
+            .page-numbers {
+                background: $color-pager-numbers-background;
+                color: $color-pager-numbers-link;
+                display: inline-block;
+                line-height: $line-height;
+                padding: 2px 8px;
+
+                @include ltr {
+                    margin: 0 4px 0 0;
+                }
+
+                @include rtl {
+                    margin: 0 0 0 4px;
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                &.current {
+                    background: darken($color-pager-numbers-background, 25);
+                    color: $color-background;
+                    font-weight: bold;
+                }
+            }
+
+            &:empty {
+                display: none;
+            }
+        }
+    }
+}
