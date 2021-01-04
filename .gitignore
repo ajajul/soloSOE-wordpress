@@ -23,3 +23,5 @@ node_modules/
 *.sqlite
 
 package-lock.json
+
+app/public/wp-content/ai1wm-backups/*
