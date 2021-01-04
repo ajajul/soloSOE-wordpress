@@ -55,7 +55,7 @@ define('SECURE_AUTH_SALT', 'NLJHueR9rZDhq9CkLhJ8FP4uJMdbeNy30S8ERyVsYSYRlh61HZfO
 define('LOGGED_IN_SALT',   'a4WWc6MYQbCNtM8SpS6rom0js8c8U4IyOe+LEuV2PNkQR99fqgE9sUU4bBXwNGutoNytq+wEaSyj6SGGxoIrBA==');
 define('NONCE_SALT',       '2QCI5rNVMOHfCZYUUWMSAypjmwsRDbvl4hhvW1ncQDCulvkDbluzT/Oj1t7kPAp9r8oJM66V41Y0LvhEnUSjdA==');
 
-// custome env variable
+// custom env variable
 define('ERP_SITE_URL', 'http://localhost:3000');
 
 /**
